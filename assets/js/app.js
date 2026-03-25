@@ -1,5 +1,5 @@
 // ============================================================
-// APP.JS — Rabia Cero Ecuador
+// APP.JS — Ecuador libre de rabia
 // Lógica de navegación, renderizado y hoja de ruta interactiva
 // ============================================================
 
@@ -137,7 +137,7 @@ function renderDiagnostico() {
         <div class="hallazgo-body">
           <p>${h.descripcion}</p>
           <div class="impact-box">
-            <span>Impacto para la certificación</span>
+            <span>Impacto para la verificación del estatus</span>
             <p>${h.impacto}</p>
           </div>
           <div class="tags-row">

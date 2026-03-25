@@ -8,7 +8,7 @@ const APP_DATA = {
 
   // ── META ────────────────────────────────────────────────
   meta: {
-    titulo: "Rabia Cero Ecuador",
+    titulo: "Ecuador libre de rabia",
     subtitulo: "Marco Normativo para la Eliminación de la Rabia Humana Transmitida por Perros",
     anio: "2026",
     cliente: "Ministerio de Salud Pública del Ecuador",
@@ -24,13 +24,13 @@ const APP_DATA = {
 
   // ── SECCIÓN 1: ESTRATEGIA ────────────────────────────────
   estrategia: {
-    contexto: "La rabia humana transmitida por perros (RHTP) es una enfermedad zoonótica prevenible al 100 % mediante vacunación. Ecuador ha alcanzado avances significativos: no registra casos de rabia humana por variante canina desde 2019. Sin embargo, la ausencia de casos no equivale a la eliminación demostrable y verificable. Para obtener la certificación ante OPS/PANAFTOSA, el país debe demostrar, mediante evidencia trazable y auditable, que las condiciones para la eliminación sostenida están institucionalizadas.",
+    contexto: "La rabia humana transmitida por perros (RHTP) es una enfermedad zoonótica prevenible al 100 % mediante vacunación. Ecuador mantiene ausencia de casos de rabia humana transmitida por perros desde 2006. Sin embargo, la ausencia de casos no equivale a la validación del estatus de eliminación. Para obtener la verificación ante OPS/PANAFTOSA, el país debe demostrar, mediante evidencia verificable, trazable y auditable, que las condiciones para la eliminación sostenida están institucionalizadas.",
     objetivo: "Fortalecer el marco normativo del Ecuador para habilitar, organizar y exigir las intervenciones críticas que sustentan la eliminación sostenida de la rabia humana transmitida por perros, en concordancia con el Plan Regional OPS/PANAFTOSA 2024–2030.",
     marco_ops: {
       titulo: "Plan Regional OPS/PANAFTOSA 2024–2030",
-      descripcion: "El estándar de referencia regional establece las condiciones mínimas para sostener la eliminación y demostrarla mediante evidencias verificables. Ecuador se alinea a este plan con la meta de certificación en el horizonte 2026–2030.",
+      descripcion: "El estándar de referencia regional establece las condiciones mínimas para sostener la eliminación y demostrarla mediante evidencias verificables. Ecuador se alinea a este plan con la meta de validación en el horizonte 2026–2030.",
       componentes: [
-        { nombre: "Gobernanza Una Salud", icono: "🏛️", descripcion: "Coordinación intersectorial formal entre salud humana, sanidad animal y nivel territorial." },
+        { nombre: "Gobernanza Una Salud (One Health)", icono: "🏛️", descripcion: "Coordinación intersectorial formal entre salud humana, sanidad animal y nivel territorial." },
         { nombre: "Vigilancia y Notificación", icono: "🔬", descripcion: "Sistemas sensibles, oportunos y trazables con definiciones operativas y flujos estandarizados." },
         { nombre: "Profilaxis PEP", icono: "💉", descripcion: "Acceso universal y gratuito a vacunas de cultivo celular e inmunoglobulina con registro nominal." },
         { nombre: "Red de Laboratorio", icono: "🧪", descripcion: "Red diagnóstica integrada con tipificación genética rutinaria y aseguramiento de calidad." },
@@ -41,17 +41,17 @@ const APP_DATA = {
       ]
     },
     por_que_normativo: [
-      { titulo: "Sin norma no hay exigibilidad", descripcion: "Las acciones pueden existir como práctica informal, pero sin instrumentos normativos no son obligatorias ni auditables. La validación OPS/PANAFTOSA exige evidencia documental verificable." },
+      { titulo: "Sin norma no hay exigibilidad", descripcion: "Las acciones pueden existir como práctica informal, pero sin instrumentos normativos no son obligatorias ni auditables. La validación por OPS/PANAFTOSA exige evidencia documental verificable." },
       { titulo: "La 'carpeta técnica' requiere una base legal", descripcion: "El dossier de eliminación que Ecuador debe presentar se construye sobre tres pilares: evidencia normativa (instrumentos que asignan competencias), procedimental (protocolos) y de gestión (registros). Los tres necesitan respaldo normativo." },
-      { titulo: "Gobernanza colaborativa es insuficiente", descripcion: "La coordinación basada en voluntades individuales y acuerdos ad hoc no garantiza la asignación explícita de responsabilidades, los plazos y la trazabilidad documental que demanda el proceso de certificación." },
+      { titulo: "Gobernanza vinculante es el requisito", descripcion: "La coordinación basada en voluntades individuales y acuerdos ad hoc no garantiza la asignación explícita de responsabilidades, los plazos y la trazabilidad documental que demanda el proceso de verificación." },
       { titulo: "Velocidad vs. reforma legislativa", descripcion: "El horizonte 2026/2030 es incompatible con una reforma a la Ley Orgánica de Salud (18–24 meses en la Asamblea). Los instrumentos reglamentarios e infralegales permiten alcanzar el mismo efecto en 3–10 meses." }
     ],
     estadisticas: [
-      { valor: "2019", etiqueta: "Último caso de rabia humana por variante canina en Ecuador" },
+      { valor: "2006", etiqueta: "Ecuador mantiene ausencia de casos de RHTP" },
       { valor: "117", etiqueta: "Instrumentos normativos vigentes inventariados en el diagnóstico" },
       { valor: "222", etiqueta: "GAD municipales que deben adoptar la Ordenanza Modelo" },
       { valor: "80 %", etiqueta: "Meta de cobertura de vacunación canina exigida por OPS/PANAFTOSA" },
-      { valor: "2030", etiqueta: "Horizonte de certificación de eliminación ante OPS/PANAFTOSA" }
+      { valor: "2030", etiqueta: "Horizonte de validación de eliminación ante OPS/PANAFTOSA" }
     ]
   },
 
@@ -73,7 +73,7 @@ const APP_DATA = {
         titulo: "Fragmentación normativa y débil exigibilidad programática",
         resumen: "El marco vigente presenta dispersión de competencias entre sectores, sin instrumento integrador.",
         descripcion: "El marco vigente presenta dispersión de competencias y normas entre sectores, con ausencia de un instrumento integrador que establezca roles, responsabilidades, coordinación, obligaciones verificables y rendición de cuentas. Esta fragmentación reduce la capacidad del MSP de conducir un esquema estándar de eliminación con evidencia homogénea.",
-        impacto: "Ninguna institución tiene mandato explícito y verificable para liderar la coordinación intersectorial del programa de eliminación.",
+        impacto: "Ninguna institución tiene mandato explícito y verificable para liderar la coordinación intersectorial de la hoja de ruta de adopción e implementación.",
         componentes_afectados: ["Gobernanza", "Vigilancia", "Control de focos"],
         severidad: "critica"
       },
@@ -83,7 +83,7 @@ const APP_DATA = {
         titulo: "Desactualización e insuficiencia del marco operativo",
         resumen: "Instrumentos vigentes que no responden al estándar regional de eliminación por antigüedad o alcance limitado.",
         descripcion: "Existen instrumentos vigentes que no responden plenamente al estándar regional de eliminación, generando vacíos en elementos operativos críticos: vigilancia integrada, PEP, laboratorio, campañas, control de focos y gestión de la información.",
-        impacto: "Los protocolos de PEP, laboratorio y campañas no están estandarizados para producir la evidencia que demanda el proceso de validación OPS/PANAFTOSA.",
+        impacto: "Los protocolos de PEP, laboratorio y campañas no están estandarizados para producir la evidencia verificable que demanda el proceso de validación OPS/PANAFTOSA.",
         componentes_afectados: ["PEP", "Laboratorio", "Campañas y vacunación"],
         severidad: "alta"
       },
@@ -103,7 +103,7 @@ const APP_DATA = {
         titulo: "Brecha estructural en educación y comunicación (MSP–MINEDUC)",
         resumen: "No existe marco normativo sostenido que institucionalice educación preventiva en el sistema escolar.",
         descripcion: "No se evidencia un marco normativo y operativo sostenido que institucionalice: educación preventiva en el sistema escolar; comunicación de riesgo y promoción de conductas (tenencia responsable, prevención de mordeduras, consulta oportuna para PEP); y capacitación recurrente de docentes y equipos locales.",
-        impacto: "La sostenibilidad del programa depende de la conciencia social, que sin marco institucional se deteriora entre generaciones y con los cambios de autoridades ministeriales.",
+        impacto: "La sostenibilidad del paquete normativo depende de la conciencia social, que sin marco institucional se deteriora entre generaciones y con los cambios de autoridades ministeriales.",
         componentes_afectados: ["Educación y comunicación", "Sostenibilidad"],
         severidad: "alta"
       },
@@ -123,7 +123,7 @@ const APP_DATA = {
         titulo: "Gestión de datos y vigilancia: cuello de botella para certificación",
         resumen: "Brechas en estandarización de registros y trazabilidad de la información.",
         descripcion: "Persisten brechas en la estandarización de registros, trazabilidad y consolidación de información (vacunación canina, vigilancia, PEP, laboratorio). Sin un sistema de evidencias robusto con definiciones, flujos, calidad de datos e indicadores verificables, el país enfrenta dificultades para demostrar desempeño sostenido ante OPS/PANAFTOSA.",
-        impacto: "La ausencia de casos puede interpretarse como subnotificación en lugar de eliminación real, invalidando la solicitud de certificación.",
+        impacto: "La ausencia de casos puede interpretarse como subnotificación en lugar de eliminación real, invalidando la solicitud de verificación.",
         componentes_afectados: ["Vigilancia", "Laboratorio", "PEP", "Trazabilidad"],
         severidad: "critica"
       }
@@ -422,7 +422,7 @@ const APP_DATA = {
 
   // ── SECCIÓN 5: HOJA DE RUTA ─────────────────────────────
   hoja_de_ruta: {
-    intro: "La hoja de ruta organiza el proceso de adopción del paquete normativo en cuatro fases secuenciales entre marzo y diciembre de 2026, respetando la lógica de jerarquía normativa: el Decreto Ejecutivo crea el marco habilitante para los instrumentos inferiores, y cada fase produce evidencia verificable para la carpeta técnica de eliminación.",
+    intro: "La hoja de ruta de adopción e implementación organiza el proceso de adopción del paquete normativo en cuatro fases secuenciales entre marzo y diciembre de 2026, respetando la lógica de jerarquía normativa: el Decreto Ejecutivo crea el marco habilitante para los instrumentos inferiores, y cada fase produce evidencia verificable para la carpeta técnica de eliminación.",
     meta_anual: "Al cierre del año 2026: Decreto Ejecutivo vigente + Acuerdo Ministerial con período transitorio en curso + Convenio MSP–AME en ejecución activa + más del 50 % de GAD municipales con ordenanza aprobada o en trámite avanzado.",
     fases: [
       {
@@ -704,7 +704,7 @@ const APP_DATA = {
       { id: "ind5", descripcion: "Mesas Técnicas MSP–AME–GAD activas (mínimo 3 mesas realizadas)", responsable: "MSP + AME", fecha: "Septiembre 2026" },
       { id: "ind6", descripcion: "Porcentaje de GAD con ordenanza aprobada o en trámite avanzado", responsable: "AME", fecha: "Diciembre 2026" },
       { id: "ind7", descripcion: "Sistema de registro y trazabilidad operativo (SIVE–SIZSE interoperables)", responsable: "MSP + AGROCALIDAD", fecha: "Diciembre 2026" },
-      { id: "ind8", descripcion: "Informe de avance de la carpeta técnica de eliminación", responsable: "MSP + OPS", fecha: "Diciembre 2026" }
+      { id: "ind8", descripcion: "Informe de avance de la carpeta técnica para el proceso de validación", responsable: "MSP + OPS", fecha: "Diciembre 2026" }
     ]
   }
 };

@@ -1,16 +1,16 @@
-# Rabia Cero Ecuador 🐕
+# Ecuador libre de rabia 🐕
 ### Marco Normativo para la Eliminación de la Rabia Humana Transmitida por Perros
 
 Plataforma de conocimiento sobre la estrategia nacional de eliminación de la RHTP en Ecuador, alineada al Plan Regional OPS/PANAFTOSA 2024–2030.
 
 ## 📋 Descripción del Proyecto
-Ecuador no registra casos de rabia humana por variante canina desde 2019. Sin embargo, para obtener la certificación internacional de eliminación, el país debe demostrar, mediante evidencia auditable, que las condiciones para la eliminación sostenida están institucionalizadas. 
+Ecuador mantiene ausencia de casos de rabia humana transmitida por perros desde 2006. Sin embargo, para obtener la validación del estatus de eliminación, el país debe demostrar, mediante evidencia verificable y auditable, que las condiciones para la eliminación sostenida están institucionalizadas. 
 
 Esta plataforma presenta:
 - **Estrategia Nacional**: Alineación con los 8 dominios críticos de OPS.
 - **Diagnóstico Normativo**: Análisis de 117 instrumentos legales (Producto 1 - LT1).
 - **Paquete de Instrumentos**: Decreto Ejecutivo, Acuerdo Ministerial, Convenio MSP-AME y la Ordenanza Municipal Modelo.
-- **Hoja de Ruta 2026**: Fases secuenciales para la implementación normativa.
+- **Hoja de Ruta de Adopción e Implementación 2026**: Fases secuenciales para la implementación normativa.
 
 ## 🏛️ Actores Involucrados
 - **MSP**: Ministerio de Salud Pública (Rectoría).
