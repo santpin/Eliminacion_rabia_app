@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rabia Cero Ecuador — Marco Normativo RHTP</title>
+  <meta name="description" content="Plataforma de conocimiento sobre la estrategia de eliminación de la rabia humana transmitida por perros en Ecuador. Diagnóstico normativo, paquete de instrumentos y hoja de ruta 2026." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rabia-ecuador.vercel.app/" />
+  <meta property="og:title" content="Rabia Cero Ecuador — Marco Normativo RHTP" />
+  <meta property="og:description" content="Estrategia y hoja de ruta 2026 para la eliminación certificada de la rabia humana transmitida por perros." />
+  <meta property="og:image" content="https://rabia-ecuador.vercel.app/social-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Rabia Cero Ecuador — Marco Normativo RHTP" />
+  <meta property="twitter:description" content="Estrategia y hoja de ruta 2026 para la eliminación certificada de la rabia humana transmitida por perros." />
+  <meta property="twitter:image" content="https://rabia-ecuador.vercel.app/social-preview.jpg" />
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVEGACIÓN
+═══════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-brand" onclick="showSection('home')" data-section="home">
+    <div class="nav-logo">🐕</div>
+    <div class="nav-brand-text">
+      <strong>Rabia Cero Ecuador</strong>
+      <span>Marco Normativo RHTP · 2026</span>
+    </div>
+  </div>
+
+  <div class="nav-links" id="nav-links">
+    <button class="nav-link" data-section="estrategia">🎯 Estrategia</button>
+    <button class="nav-link" data-section="diagnostico">🔍 Diagnóstico</button>
+    <button class="nav-link" data-section="paquete">📋 Paquete Normativo</button>
+    <button class="nav-link" data-section="actores">👥 Actores</button>
+    <button class="nav-link" data-section="hoja-de-ruta">🗺️ Hoja de Ruta</button>
+  </div>
+
+  <div class="nav-badge">MSP Ecuador · Boehringer Ingelheim</div>
+
+  <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     MAIN
+═══════════════════════════════════════════ -->
+<main>
+
+  <!-- ─── HOME ─────────────────────────────── -->
+  <section id="section-home" class="section-page">
+
+    <div class="hero">
+      <div class="hero-inner container">
+        <div class="hero-content">
+          <div class="hero-label">
+            🌎 OPS/PANAFTOSA · Plan Regional 2024–2030
+          </div>
+          <h1>
+            Eliminando la <span>Rabia Humana</span><br>
+            Transmitida por Perros
+          </h1>
+          <p>
+            Ecuador ha alcanzado avances históricos. Ahora necesita convertirlos en evidencia verificable y sostenible. Esta plataforma presenta la estrategia normativa diseñada para consolidar la eliminación de la RHTP y alcanzar la certificación ante OPS/PANAFTOSA.
+          </p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary" onclick="showSection('estrategia')">
+              🎯 Ver Estrategia
+            </button>
+            <button class="btn btn-outline" onclick="showSection('hoja-de-ruta')">
+              🗺️ Hoja de Ruta 2026
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>📊 Cifras clave</h3>
+          <div class="hero-stats" id="hero-stats">
+            <!-- Renderizado por JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Nav -->
+    <div class="quick-nav">
+      <div class="quick-nav-grid container">
+        <div class="qnav-card" style="--color:#005F73" onclick="showSection('estrategia')">
+          <div class="qnav-icon">🎯</div>
+          <div class="qnav-title">Estrategia de Eliminación</div>
+          <div class="qnav-sub">Contexto · OPS/PANAFTOSA · Carpeta técnica</div>
+        </div>
+        <div class="qnav-card" style="--color:#2C3E50" onclick="showSection('diagnostico')">
+          <div class="qnav-icon">🔍</div>
+          <div class="qnav-title">Diagnóstico Normativo</div>
+          <div class="qnav-sub">6 hallazgos · 5 brechas críticas</div>
+        </div>
+        <div class="qnav-card" style="--color:#1A5276" onclick="showSection('paquete')">
+          <div class="qnav-icon">📋</div>
+          <div class="qnav-title">Paquete Normativo</div>
+          <div class="qnav-sub">4 instrumentos · Jerarquía normativa</div>
+        </div>
+        <div class="qnav-card" style="--color:#117A65" onclick="showSection('actores')">
+          <div class="qnav-icon">👥</div>
+          <div class="qnav-title">Actores Involucrados</div>
+          <div class="qnav-sub">MSP · AGROCALIDAD · GAD · Academia</div>
+        </div>
+        <div class="qnav-card" style="--color:#1C2833" onclick="showSection('hoja-de-ruta')">
+          <div class="qnav-icon">🗺️</div>
+          <div class="qnav-title">Hoja de Ruta 2026</div>
+          <div class="qnav-sub">4 fases · Seguimiento de hitos</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contexto breve -->
+    <div style="max-width:900px; margin:0 auto; padding:52px 28px 64px; text-align:center;">
+      <div class="section-tag" style="display:inline-flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:1px; color:var(--primary); background:var(--pale); padding:5px 14px; border-radius:20px; margin-bottom:20px;">
+        ¿Por qué esta plataforma?
+      </div>
+      <h2 style="font-size:1.8rem; margin-bottom:16px; color:var(--dark);">De la ausencia de casos a la eliminación demostrable</h2>
+      <p style="font-size:1rem; color:var(--muted); line-height:1.85; max-width:660px; margin:0 auto 36px;">
+        Ecuador no registra casos de rabia humana por variante canina desde 2019. Pero la ausencia de casos no equivale a la eliminación certificada. El proceso de validación ante OPS/PANAFTOSA exige una <strong style="color:var(--primary);">carpeta técnica</strong> con evidencia normativa, procedimental y de gestión que demuestre, de forma auditable, que las condiciones para la eliminación sostenida están institucionalizadas en todos los niveles del Estado.
+      </p>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px; max-width:780px; margin:0 auto;">
+        <div style="background:var(--card); border-radius:var(--radius); padding:22px 18px; border:1px solid var(--border); box-shadow:var(--shadow);">
+          <div style="font-size:1.5rem; margin-bottom:8px;">📜</div>
+          <h4 style="font-size:0.88rem; color:var(--primary); margin-bottom:6px;">Evidencia normativa</h4>
+          <p style="font-size:0.78rem; color:var(--muted); line-height:1.5;">Instrumentos que asignan competencias, establecen mandatos y habilitan mecanismos de cumplimiento.</p>
+        </div>
+        <div style="background:var(--card); border-radius:var(--radius); padding:22px 18px; border:1px solid var(--border); box-shadow:var(--shadow);">
+          <div style="font-size:1.5rem; margin-bottom:8px;">⚙️</div>
+          <h4 style="font-size:0.88rem; color:var(--primary); margin-bottom:6px;">Evidencia procedimental</h4>
+          <p style="font-size:0.78rem; color:var(--muted); line-height:1.5;">Protocolos, guías y POE que especifican cómo se ejecutan los mandatos en cada componente crítico.</p>
+        </div>
+        <div style="background:var(--card); border-radius:var(--radius); padding:22px 18px; border:1px solid var(--border); box-shadow:var(--shadow);">
+          <div style="font-size:1.5rem; margin-bottom:8px;">📊</div>
+          <h4 style="font-size:0.88rem; color:var(--primary); margin-bottom:6px;">Evidencia de gestión</h4>
+          <p style="font-size:0.78rem; color:var(--muted); line-height:1.5;">Registros, reportes e indicadores que permiten seguimiento, control de calidad y auditoría del programa.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─── ESTRATEGIA ────────────────────────── -->
+  <section id="section-estrategia" class="section-page">
+
+    <div class="estrategia-hero">
+      <div class="estrategia-hero-inner container">
+        <div>
+          <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.2); color:rgba(255,255,255,0.9); padding:5px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:16px;">
+            🎯 Sección 1
+          </div>
+          <h2>Estrategia de Eliminación RHTP</h2>
+          <p>Ecuador busca demostrar de forma verificable y sostenible la eliminación de la rabia humana transmitida por perros, en alineación con el Plan Regional OPS/PANAFTOSA 2024–2030. El componente normativo es el habilitador clave de esa demostración.</p>
+          <button class="btn btn-outline" onclick="showSection('diagnostico')" style="margin-top:12px;">
+            Siguiente: Diagnóstico →
+          </button>
+        </div>
+        <div>
+          <div class="fact-box">
+            <h4>🎯 Objetivo de la consultoría</h4>
+            <p>Fortalecer el marco normativo del Ecuador para habilitar, organizar y exigir las intervenciones críticas que sustentan la eliminación sostenida de la RHTP, en concordancia con el Plan Regional OPS/PANAFTOSA 2024–2030.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-row container" id="est-stats">
+      <!-- Renderizado por JS -->
+    </div>
+
+    <!-- Componentes OPS -->
+    <div class="section-header">
+      <div class="section-tag">🌍 Marco Regional</div>
+      <h2>Plan Regional OPS/PANAFTOSA 2024–2030</h2>
+      <p>El estándar regional define 8 dominios o componentes críticos que, en conjunto, determinan la capacidad del país para demostrar y sostener la eliminación. El marco normativo ecuatoriano debe habilitarlos a todos.</p>
+    </div>
+    <div class="componentes-grid container" id="componentes-grid">
+      <!-- Renderizado por JS -->
+    </div>
+
+    <!-- Por qué normativo -->
+    <div style="background:var(--pale); padding:8px 0 8px;">
+      <div class="section-header">
+        <div class="section-tag">⚖️ El componente normativo</div>
+        <h2>¿Por qué la norma es el habilitador clave?</h2>
+        <p>La gobernanza colaborativa basada en voluntades individuales no garantiza la trazabilidad documental que exige el proceso de certificación. La norma es lo que convierte las acciones en obligaciones verificables.</p>
+      </div>
+      <div class="por-que-grid container" id="porque-grid">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─── DIAGNÓSTICO ───────────────────────── -->
+  <section id="section-diagnostico" class="section-page">
+
+    <div class="diag-hero">
+      <div class="diag-hero-inner container">
+        <div>
+          <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.85); padding:5px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:16px;">
+            🔍 Sección 2 — Producto 1 (LT1)
+          </div>
+          <h2>Diagnóstico Normativo y de Gobernanza</h2>
+          <p>Análisis sistemático de 117 instrumentos normativos vigentes bajo criterios de aplicabilidad, exigibilidad y coherencia, contrastados con el estándar regional OPS/PANAFTOSA. El diagnóstico identificó 6 hallazgos críticos y 5 brechas estructurales.</p>
+        </div>
+        <div>
+          <div class="diag-meta-box">
+            <h4>Ficha metodológica</h4>
+            <div class="diag-meta-item">
+              <span class="diag-meta-label">Fuente</span>
+              <span class="diag-meta-value">FIELWEB + entrevistas focales semiestructuradas</span>
+            </div>
+            <div class="diag-meta-item">
+              <span class="diag-meta-label">Instrumentos</span>
+              <span class="diag-meta-value">117 normas vigentes analizadas (leyes, reglamentos, acuerdos, ordenanzas)</span>
+            </div>
+            <div class="diag-meta-item">
+              <span class="diag-meta-label">Criterios</span>
+              <span class="diag-meta-value">Aplicabilidad · Exigibilidad · Coherencia</span>
+            </div>
+            <div class="diag-meta-item">
+              <span class="diag-meta-label">Referencia</span>
+              <span class="diag-meta-value">Plan Regional OPS/PANAFTOSA 2024–2030 (lógica de carpeta técnica)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hallazgos -->
+    <div class="section-header">
+      <div class="section-tag">🔎 Hallazgos</div>
+      <h2>6 Hallazgos Críticos del Diagnóstico</h2>
+      <p>Haz clic en cada hallazgo para expandir el análisis completo, el impacto para la certificación y los componentes programáticos afectados.</p>
+    </div>
+    <div class="hallazgos-grid container" id="hallazgos-grid">
+      <!-- Renderizado por JS -->
+    </div>
+
+    <!-- Brechas -->
+    <div class="brechas-section">
+      <div class="brechas-inner container">
+        <h3>5 Brechas Estructurales Identificadas</h3>
+        <p>Las brechas son las acciones normativas prioritarias que el paquete de instrumentos debe cerrar para habilitar el proceso de certificación.</p>
+        <div class="brechas-list" id="brechas-grid">
+          <!-- Renderizado por JS -->
+        </div>
+        <div style="text-align:center; margin-top:28px;">
+          <button class="btn btn-primary" onclick="showSection('paquete')">
+            Ver cómo se cierran estas brechas →
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─── PAQUETE NORMATIVO ─────────────────── -->
+  <section id="section-paquete" class="section-page">
+
+    <div class="paquete-hero">
+      <div class="paquete-hero-inner container">
+        <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.2); color:rgba(255,255,255,0.9); padding:5px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:16px;">
+          📋 Sección 3 — Productos 2 y 3 (LT2/LT3)
+        </div>
+        <h2>Paquete Normativo Integrado</h2>
+        <p>Cuatro instrumentos complementarios y jerárquicamente coherentes que operan en cuatro niveles del Estado. Cada instrumento cierra brechas específicas del diagnóstico y genera evidencia verificable para el dossier de eliminación.</p>
+      </div>
+    </div>
+
+    <!-- Jerarquía visual -->
+    <div class="jerarquia-visual container">
+      <h3>Arquitectura normativa del paquete — Jerarquía de habilitación</h3>
+      <div class="jerarquia-ladder" id="jerarquia-ladder">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+
+    <!-- Criterios de diseño -->
+    <div style="background:var(--pale); padding:32px 28px;">
+      <div style="max-width:1180px; margin:0 auto;">
+        <h3 style="text-align:center; font-size:1.1rem; color:var(--dark); margin-bottom:20px;">Criterios que guían el diseño del paquete</h3>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px;" id="criterios-grid">
+          <!-- Renderizado inline -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Instrumentos -->
+    <div class="section-header">
+      <div class="section-tag">⚖️ Los 4 instrumentos</div>
+      <h2>Descripción detallada de cada instrumento</h2>
+      <p>Cada instrumento actúa en un nivel normativo diferente y tiene un propósito específico en el sistema de habilitación de la eliminación sostenida.</p>
+    </div>
+    <div class="instrumentos-grid container" id="instrumentos-grid">
+      <!-- Renderizado por JS -->
+    </div>
+
+  </section>
+
+  <!-- ─── ACTORES ───────────────────────────── -->
+  <section id="section-actores" class="section-page">
+
+    <div style="background: linear-gradient(135deg, #117A65 0%, #1E8449 100%); padding:48px 28px; color:white;">
+      <div style="max-width:1180px; margin:0 auto;">
+        <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.2); color:rgba(255,255,255,0.9); padding:5px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:16px;">
+          👥 Sección 4
+        </div>
+        <h2 style="color:white; font-size:1.8rem; margin-bottom:10px;">Mapa de Actores Involucrados</h2>
+        <p style="color:rgba(255,255,255,0.82); font-size:0.95rem; line-height:1.8; max-width:660px;">
+          El diagnóstico distingue entre actores obligados (con mandato primario derivado de competencias legales) y actores corresponsables (cuyo rol territorial o educativo es determinante para la implementación sostenida). La distinción guía la asignación de responsabilidades en el paquete normativo.
+        </p>
+      </div>
+    </div>
+
+    <div class="section-header">
+      <div class="section-tag">🗂️ Categorías</div>
+      <h2>Actores del ecosistema de eliminación</h2>
+      <p>Filtra por tipo de participación para explorar las competencias, responsabilidades y representantes identificados de cada actor.</p>
+    </div>
+
+    <div class="actores-filters container">
+      <button class="filter-btn active" data-filter="todos" onclick="filterActores('todos')">Todos</button>
+      <button class="filter-btn" data-filter="obligado_primario" onclick="filterActores('obligado_primario')">🏛️ Actores Obligados</button>
+      <button class="filter-btn" data-filter="corresponsable" onclick="filterActores('corresponsable')">🤝 Corresponsables</button>
+      <button class="filter-btn" data-filter="soporte" onclick="filterActores('soporte')">🎓 Soporte Operativo</button>
+      <button class="filter-btn" data-filter="cooperacion" onclick="filterActores('cooperacion')">🌍 Cooperación</button>
+    </div>
+
+    <div class="actores-grid container" id="actores-grid">
+      <!-- Renderizado por JS -->
+    </div>
+
+  </section>
+
+  <!-- ─── HOJA DE RUTA ──────────────────────── -->
+  <section id="section-hoja-de-ruta" class="section-page">
+
+    <div class="hr-hero">
+      <div class="hr-hero-inner container">
+        <div>
+          <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.85); padding:5px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:16px;">
+            🗺️ Sección 5 — Producto 4 (LT4)
+          </div>
+          <h2>Hoja de Ruta de Implementación</h2>
+          <p>Cuatro fases secuenciales entre marzo y diciembre de 2026. Cada fase tiene pasos jurídicamente fundamentados, responsables identificados y evidencia esperada. Puedes actualizar el estado de cada paso para hacer seguimiento del avance.</p>
+        </div>
+        <div>
+          <div class="hr-meta-box">
+            <h4>🎯 Meta al cierre de 2026</h4>
+            <p>Decreto Ejecutivo vigente · Acuerdo Ministerial publicado con período transitorio en curso · Convenio MSP–AME en ejecución activa · Más del 50% de los 222 GAD municipales con ordenanza aprobada o en trámite avanzado.</p>
+            <div style="margin-top:14px; display:flex; justify-content:flex-end;">
+              <button onclick="resetRoadmap()" style="font-size:0.75rem; color:rgba(255,255,255,0.5); background:none; border:1px solid rgba(255,255,255,0.2); padding:5px 12px; border-radius:6px; cursor:pointer; font-family:var(--font-body); transition:all 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">
+                🔄 Reiniciar progreso
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress Dashboard -->
+    <div class="progress-dashboard container">
+      <h3>📊 Panel de progreso — Dossier Normativo</h3>
+      <div class="progress-bars" id="progress-bars">
+        <!-- Renderizado por JS -->
+      </div>
+      <div class="progress-overall" id="progress-overall">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="timeline-container container">
+      <div class="timeline-strip" id="timeline-strip">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+
+    <!-- Phase Detail -->
+    <div class="phase-detail container" id="phase-detail">
+      <!-- Renderizado por JS -->
+    </div>
+
+    <!-- Indicadores -->
+    <div style="background:var(--pale); padding:48px 28px; border-top:1px solid var(--border);">
+      <div style="max-width:1180px; margin:0 auto;">
+        <h3 style="font-size:1.1rem; font-weight:700; color:var(--dark); margin-bottom:8px;">📋 Indicadores de seguimiento de la hoja de ruta</h3>
+        <p style="font-size:0.88rem; color:var(--muted); margin-bottom:24px;">Los siguientes indicadores permiten hacer seguimiento periódico del avance con una frecuencia mínima mensual durante el año 2026.</p>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;" id="indicadores-list">
+          <!-- Renderizado inline -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer>
+  <strong>Rabia Cero Ecuador</strong> — Marco Normativo para la Eliminación de la RHTP<br>
+  Ministerio de Salud Pública del Ecuador · <strong>Boehringer Ingelheim</strong> · 2026<br>
+  Equipo consultor: Dr. Santiago Pinto Zaldumbide · Abg. Héctor Muñoz Alarcón · Abg. Alvaro Orellana · Abg. Lorena Rincón
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+
+<script>
+// ── Renderizado de secciones estáticas adicionales ──────────
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Criterios de diseño del paquete
+  const criGrid = document.getElementById('criterios-grid');
+  if (criGrid && typeof APP_DATA !== 'undefined') {
+    criGrid.innerHTML = APP_DATA.paquete.criterios_diseno.map(c => `
+      <div style="background:white; border-radius:12px; padding:20px 16px; border:1px solid var(--border); box-shadow:var(--shadow);">
+        <h4 style="font-size:0.88rem; font-weight:700; color:var(--primary); margin-bottom:8px;">${c.titulo}</h4>
+        <p style="font-size:0.78rem; color:var(--muted); line-height:1.65;">${c.descripcion}</p>
+      </div>
+    `).join('');
+  }
+
+  // Indicadores de la hoja de ruta
+  const indList = document.getElementById('indicadores-list');
+  if (indList && typeof APP_DATA !== 'undefined') {
+    indList.innerHTML = APP_DATA.hoja_de_ruta.indicadores.map((ind, i) => `
+      <div style="background:white; border-radius:10px; padding:14px 16px; border:1px solid var(--border); display:flex; gap:12px; align-items:flex-start;">
+        <div style="width:28px; height:28px; background:var(--primary); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.78rem; font-weight:700; color:white; flex-shrink:0;">
+          ${i + 1}
+        </div>
+        <div style="flex:1;">
+          <p style="font-size:0.84rem; color:var(--dark); font-weight:500; margin-bottom:4px; line-height:1.4;">${ind.descripcion}</p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <span style="font-size:0.72rem; color:var(--muted);">👤 ${ind.responsable}</span>
+            <span style="font-size:0.72rem; color:var(--primary); font-weight:600;">📅 ${ind.fecha}</span>
+          </div>
+        </div>
+      </div>
+    `).join('');
+  }
+});
+</script>
+
+</body>
+</html>

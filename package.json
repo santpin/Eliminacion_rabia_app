@@ -1,0 +1,20 @@
+{
+  "name": "eliminacion-rabia-app",
+  "version": "1.0.0",
+  "description": "Marco Normativo para la Eliminación de la Rabia Humana Transmitida por Perros en Ecuador (2026)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "rabia",
+    "ecuador",
+    "msp",
+    "boehringer",
+    "salud-publica",
+    "normativa"
+  ],
+  "author": "Dr. Santiago Pinto Zaldumbide, Abg. Héctor Muñoz Alarcón, Abg. Alvaro Orellana, Abg. Lorena Rincón",
+  "license": "MIT",
+  "dependencies": {}
+}
