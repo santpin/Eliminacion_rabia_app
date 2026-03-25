@@ -31,4 +31,3 @@ Esta plataforma presenta:
 - **Abg. Lorena Rincón**
 
 ---
-*Financiado y patrocinado por **Boehringer Ingelheim***.
