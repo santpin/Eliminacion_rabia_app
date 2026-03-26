@@ -265,7 +265,7 @@ const APP_DATA = {
         hito: "Publicación: Junio 2026 | Período transitorio: 180 días",
         brecha_cierra: "Gobernanza insuficiente / vacíos en estándares técnicos de biológicos, vigilancia, laboratorio y PEP",
         fundamento: "Art. 154 CRE (facultad ministerial para expedir normas); Arts. 4 y 6 LOS (rectoría sanitaria, obligatoriedad de inmunizaciones); compromisos internacionales OMS y OMSA.",
-        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774492465/Acuerdo_Ministerial_V1_Rabia_xzoxs6.pdf",
+        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774532922/Acuerdo_Ministerial_V1_Rabia_qq54rh.pdf",
         descripcion: "Convierte el mandato presidencial en procedimientos operativos verificables dentro del MSP. Define la arquitectura de vigilancia integrada y diagnostica. Mientras el Decreto define la arquitectura institucional, el Acuerdo especifica cómo se ejecutan los procesos críticos y qué evidencia debe producirse para cada uno. La distinción conceptual central es la diferencia entre la ausencia de casos por subnotificación y la ausencia demostrada por vigilancia negativa robusta con tipificación genética (evidencia real de eliminación).",
         elementos: [
           "Gobernanza vinculante: formalización del Comité Nacional de Control de Zoonosis con periodicidad trimestral y actas verificables.",
