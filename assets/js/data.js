@@ -288,7 +288,7 @@ const APP_DATA = {
         hito: "Firma: Junio 2026 | Mesas técnicas activas: Julio–Diciembre 2026",
         brecha_cierra: "Variabilidad subnacional / coordinación MSP–GAD sin instrumento formal",
         fundamento: "Art. 226 CRE (cooperación interinstitucional); Código Orgánico Administrativo (colaboración administrativa); AME como entidad de articulación y representación de los 222 GAD.",
-        pdf_url: "",
+        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774533394/Convenio_AME_V1_Rabia_jmwgs1.pdf",
         descripcion: "Habilita el vínculo formal entre el programa nacional y los 222 GAD municipales, que son los ejecutores territoriales de componentes críticos. Sin este instrumento, la coordinación continúa dependiendo de acuerdos ad hoc con la fragmentación documentada en el LT1.",
         elementos: [
           "Asistencia técnica para actualización normativa municipal: el MSP provee lineamientos; la AME articula la convocatoria y socialización con los 222 GAD.",
