@@ -265,7 +265,7 @@ function renderDossier() {
 
     // 1. Limpiar o asegurar contenedores
     section.innerHTML = `
-        <div class="dos-hero" style="background: linear-gradient(135deg, #2D3436 0%, #000000 100%); padding:60px 20px; color:white; text-align:center;">
+        <div class="dos-hero" style="background: linear-gradient(135deg, #0d3b5e 0%, #0a7e8c 100%); padding:60px 20px; color:white; text-align:center;">
           <div style="max-width:1000px; margin:0 auto;">
             <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.85); padding:6px 16px; border-radius:20px; font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-bottom:20px;">
               📁 Expediente de Validación
