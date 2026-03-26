@@ -46,9 +46,10 @@
     <button class="nav-link" data-section="paquete">📋 Paquete Normativo</button>
     <button class="nav-link" data-section="actores">👥 Actores</button>
     <button class="nav-link" data-section="hoja-de-ruta">🗺️ Hoja de Ruta</button>
+    <button class="nav-link" data-section="dossier">📂 Dossier</button>
   </div>
 
-  <div class="nav-badge">MSP Ecuador · Boehringer Ingelheim</div>
+  <div class="nav-badge">MSP</div>
 
   <button class="nav-hamburger" id="hamburger" aria-label="Menú">
     <span></span><span></span><span></span>
@@ -93,20 +94,21 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
 
     <!-- Quick Nav -->
     <div class="quick-nav">
       <div class="quick-nav-grid container">
-        <div class="qnav-card" style="--color:#005F73" onclick="showSection('estrategia')">
+        <div class="qnav-card" style="--color:var(--primary)" onclick="showSection('estrategia')">
           <div class="qnav-icon">🎯</div>
-          <div class="qnav-title">Estrategia de Eliminación</div>
-          <div class="qnav-sub">Contexto · OPS/PANAFTOSA · Carpeta técnica</div>
+          <div class="qnav-title">Estrategia Nacional</div>
+          <div class="qnav-sub">Pilares · Metas · Marco OPS</div>
         </div>
-        <div class="qnav-card" style="--color:#2C3E50" onclick="showSection('diagnostico')">
+        <div class="qnav-card" style="--color:#7D3C98" onclick="showSection('diagnostico')">
           <div class="qnav-icon">🔍</div>
           <div class="qnav-title">Diagnóstico Normativo</div>
-          <div class="qnav-sub">6 hallazgos · 5 brechas críticas</div>
+          <div class="qnav-sub">Inventario normativo · Brechas · Hallazgos</div>
         </div>
         <div class="qnav-card" style="--color:#1A5276" onclick="showSection('paquete')">
           <div class="qnav-icon">📋</div>
@@ -116,11 +118,11 @@
         <div class="qnav-card" style="--color:#117A65" onclick="showSection('actores')">
           <div class="qnav-icon">👥</div>
           <div class="qnav-title">Actores Involucrados</div>
-          <div class="qnav-sub">MSP · AGROCALIDAD · GAD · Academia</div>
+          <div class="qnav-sub">MSP · OPS/OMS · AGROCALIDAD · GAD</div>
         </div>
         <div class="qnav-card" style="--color:#1C2833" onclick="showSection('hoja-de-ruta')">
           <div class="qnav-icon">🗺️</div>
-          <div class="qnav-title">Hoja de Ruta de Adopción e Implementación 2026</div>
+          <div class="qnav-title">Hoja de Ruta</div>
           <div class="qnav-sub">4 fases · Seguimiento de hitos</div>
         </div>
       </div>
@@ -219,7 +221,19 @@
             🔍 Sección 2 — Producto 1 (LT1)
           </div>
           <h2>Diagnóstico Normativo y de Gobernanza</h2>
-          <p>Análisis sistemático de 117 instrumentos normativos vigentes bajo criterios de aplicabilidad, exigibilidad y coherencia, contrastados con el estándar regional OPS/PANAFTOSA. El diagnóstico identificó 6 hallazgos críticos y 5 brechas estructurales.</p>
+          <p class="section-subtitle">Identificación de brechas y nudos críticos en el marco normativo nacional y local.</p>
+          
+          <div class="traceability-note mb-4">
+              <div class="d-flex align-items-center mb-2">
+                <i class="fas fa-info-circle mr-2"></i>
+                <span>Las brechas y hallazgos presentados en esta sección derivan del diagnóstico normativo y de gobernanza desarrollado en el Producto 1 de la consultoría.</span>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="RABIA_APP.toggleCatalog()">
+                  <i class="fas fa-list-ul mr-2"></i> Consultar catálogo normativo revisado
+              </button>
+          </div>
+
+          <p>Análisis sistemático de los instrumentos normativos vigentes bajo criterios de aplicabilidad, exigibilidad y coherencia, contrastados con el estándar regional OPS/PANAFTOSA. El diagnóstico identificó 8 hallazgos críticos y 9 brechas estructurales.</p>
         </div>
         <div>
           <div class="diag-meta-box">
@@ -230,7 +244,7 @@
             </div>
             <div class="diag-meta-item">
               <span class="diag-meta-label">Instrumentos</span>
-              <span class="diag-meta-value">117 normas vigentes analizadas (leyes, reglamentos, acuerdos, ordenanzas)</span>
+              <span class="diag-meta-value">Normas vigentes analizadas (leyes, reglamentos, acuerdos, ordenanzas)</span>
             </div>
             <div class="diag-meta-item">
               <span class="diag-meta-label">Criterios</span>
@@ -248,17 +262,18 @@
     <!-- Hallazgos -->
     <div class="section-header">
       <div class="section-tag">🔎 Hallazgos</div>
-      <h2>6 Hallazgos Críticos del Diagnóstico</h2>
+      <h2>Hallazgos Críticos del Diagnóstico</h2>
       <p>Haz clic en cada hallazgo para expandir el análisis completo, el impacto para la verificación del estatus y los componentes programáticos afectados.</p>
     </div>
     <div class="hallazgos-grid container" id="hallazgos-grid">
       <!-- Renderizado por JS -->
     </div>
 
+
     <!-- Brechas -->
     <div class="brechas-section">
       <div class="brechas-inner container">
-        <h3>5 Brechas Estructurales Identificadas</h3>
+        <h3>Brechas Estructurales Identificadas</h3>
         <p>Las brechas son las acciones normativas prioritarias que el paquete normativo debe cerrar para habilitar el proceso de validación.</p>
         <div class="brechas-list" id="brechas-grid">
           <!-- Renderizado por JS -->
@@ -266,6 +281,91 @@
         <div style="text-align:center; margin-top:28px;">
           <button class="btn btn-primary" onclick="showSection('paquete')">
             Ver cómo se cierran estas brechas →
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sostenibilidad (Educación y Comunicación) -->
+    <div class="sostenibilidad-section" id="sostenibilidad">
+      <div class="container">
+        <div class="sos-header">
+          <h2>Educación y comunicación como eje de sostenibilidad</h2>
+          <p>La sostenibilidad del estatus de eliminación depende de que la conciencia social y las conductas preventivas estén institucionalizadas, sean medibles y persistan más allá de los cambios de autoridades.</p>
+        </div>
+
+        <div class="sos-normativa-box">
+          <h3>⚖️ Respuesta normativa del paquete:</h3>
+          <div class="sos-nv-grid">
+            <div class="sos-nv-item">
+              <h4>Decreto Ejecutivo</h4>
+              <p>Integra al MINEDUC en el Comité Nacional de Control de Zoonosis con mandato explícito y productos verificables.</p>
+            </div>
+            <div class="sos-nv-item">
+              <h4>Acuerdo Ministerial MSP</h4>
+              <p>Formaliza los estándares de comunicación de riesgo como proceso permanente y auditable dentro del MSP.</p>
+            </div>
+            <div class="sos-nv-item">
+              <h4>Ordenanza Municipal Modelo</h4>
+              <p>Incorpora la educación para la tenencia responsable y la prevención de mordeduras como obligación municipal exigible.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sos-thematic-grid">
+          <!-- Theme 1 -->
+          <div class="sos-theme-card">
+            <div class="sos-theme-icon">🏫</div>
+            <div class="sos-theme-content">
+              <h3>Articulación formal MSP–MINEDUC</h3>
+              <p>La educación preventiva sobre rabia, tenencia responsable y prevención de mordeduras debe incorporarse al currículo escolar mediante un marco normativo formal entre el MSP y el MINEDUC. Sin ese instrumento, las actividades dependen de acuerdos ad hoc susceptibles de discontinuidad por rotación de autoridades. El Decreto Ejecutivo y el Acuerdo Ministerial establecen la obligatoriedad de esta coordinación, con mandato explícito al MINEDUC como miembro del Comité Nacional de Control de Zoonosis.</p>
+              <div class="sos-vinculo"><strong>Vínculo normativo:</strong> Decreto Ejecutivo → Comité Nacional (MINEDUC); Acuerdo Ministerial → protocolo de comunicación interinstitucional</div>
+            </div>
+          </div>
+          <!-- Theme 2 -->
+          <div class="sos-theme-card">
+            <div class="sos-theme-icon">🐕</div>
+            <div class="sos-theme-content">
+              <h3>Tenencia responsable y prevención de mordeduras</h3>
+              <p>La prevención de la exposición al virus rábico en humanos depende directamente de conductas sostenidas en la población: vacunación oportuna de mascotas, registro animal, no abandono y consulta inmediata ante mordeduras. Estas conductas no son espontáneas; requieren educación continua, accesible y territorialmente uniforme. La Ordenanza Municipal Modelo establece la tenencia responsable como obligación exigible con régimen sancionatorio, creando el respaldo jurídico para las acciones educativas locales.</p>
+              <div class="sos-vinculo"><strong>Vínculo normativo:</strong> Ordenanza Municipal Modelo → régimen de tenencia responsable + sanciones</div>
+            </div>
+          </div>
+          <!-- Theme 3 -->
+          <div class="sos-theme-card">
+            <div class="sos-theme-icon">📡</div>
+            <div class="sos-theme-content">
+              <h3>Comunicación de riesgo como proceso institucional permanente</h3>
+              <p>La comunicación de riesgo no es una campaña puntual: es un proceso sistemático, planificado y evaluable que informa a la población sobre el riesgo, los signos de alarma y las rutas de atención. El Acuerdo Ministerial formaliza esta obligación dentro del MSP y establece que las actividades de comunicación deben quedar registradas y ser reportadas junto con los indicadores del programa, generando evidencia para la carpeta técnica de eliminación.</p>
+              <div class="sos-vinculo"><strong>Vínculo normativo:</strong> Acuerdo Ministerial → protocolos de comunicación de riesgo verificables</div>
+            </div>
+          </div>
+          <!-- Theme 4 -->
+          <div class="sos-theme-card">
+            <div class="sos-theme-icon">📊</div>
+            <div class="sos-theme-content">
+              <h3>Métricas, cobertura y trazabilidad de acciones educativas</h3>
+              <p>La validación del estatus de eliminación ante OPS/PANAFTOSA exige demostrar no solo la ausencia de casos, sino la existencia de condiciones sostenibles. Las actividades educativas deben poder medirse: número de escuelas con contenidos sobre rabia integrados, número de docentes capacitados, cobertura territorial de campañas, materiales educativos aprobados y registros de distribución. Sin estas métricas, el componente educativo es invisible para el proceso de validación. El Acuerdo Ministerial define los indicadores mínimos que el MSP debe reportar semestralmente.</p>
+              <div class="sos-vinculo"><strong>Vínculo normativo:</strong> Acuerdo Ministerial → indicadores de comunicación y educación; Convenio MSP–AME → reporte territorial</div>
+            </div>
+          </div>
+          <!-- Theme 5 -->
+          <div class="sos-theme-card">
+            <div class="sos-theme-icon">🔄</div>
+            <div class="sos-theme-content">
+              <h3>Educación como garantía de sostenibilidad intergeneracional</h3>
+              <p>La rabia transmitida por perros lleva veinte años sin casos en Ecuador. Este tiempo genera 'complacencia epidemiológica': nuevas generaciones de familias, docentes y autoridades locales que no vivieron la enfermedad y pueden no percibir el riesgo. Sin un marco institucional que garantice la continuidad del mensaje preventivo —independientemente de los ciclos políticos—, la percepción de riesgo declina, la cobertura vacunal cae y la vigilancia se debilita. La articulación MSP–MINEDUC, formalizada en el paquete normativo, es la garantía estructural frente a este riesgo de largo plazo.</p>
+              <div class="sos-vinculo"><strong>Vínculo normativo:</strong> Decreto Ejecutivo + Acuerdo Ministerial → sostenibilidad del programa más allá de los períodos de gobierno</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sos-footer-btns">
+          <button class="btn btn-primary" onclick="showSection('paquete')">
+            <i class="fas fa-file-alt mr-2"></i> Ver los instrumentos normativos
+          </button>
+          <button class="btn btn-outline" onclick="RABIA_APP.scrollToActor('mineduc')">
+            <i class="fas fa-users mr-2"></i> Ver rol del MINEDUC en el mapa de actores
           </button>
         </div>
       </div>
@@ -308,8 +408,21 @@
     <div class="section-header">
       <div class="section-tag">⚖️ Los 4 instrumentos</div>
       <h2>Descripción detallada de cada instrumento</h2>
-      <p>Cada instrumento actúa en un nivel normativo diferente y tiene un propósito específico en el sistema de habilitación de la eliminación sostenida.</p>
+      <p class="section-subtitle">Propuesta técnica para el fortalecimiento de la gobernanza y rectoría de la eliminación de la RHTP.</p>
     </div>
+
+    <div class="container" style="max-width:900px; margin:0 auto; padding-bottom: 20px;">
+          <div class="traceability-note mb-4" style="text-align: left;">
+              <div class="d-flex align-items-start">
+                <i class="fas fa-info-circle mr-3 mt-1"></i>
+                <span>Los instrumentos propuestos corresponden al desarrollo del paquete normativo elaborado en el Producto 2 de la consultoría.</span>
+              </div>
+          </div>
+          <div class="text-center">
+            <p style="color: var(--text); font-size: 1.05rem; max-width: 700px; margin: 0 auto 2rem;">Cada instrumento actúa en un nivel normativo diferente y tiene un propósito específico en el sistema de habilitación de la eliminación sostenida.</p>
+          </div>
+    </div>
+
     <div class="instrumentos-grid container" id="instrumentos-grid">
       <!-- Renderizado por JS -->
     </div>
@@ -366,7 +479,7 @@
         <div>
           <div class="hr-meta-box">
             <h4>🎯 Meta al cierre de 2026</h4>
-            <p>Decreto Ejecutivo vigente · Acuerdo Ministerial publicado con período transitorio en curso · Convenio MSP–AME en ejecución activa · Más del 50% de los 222 GAD municipales con ordenanza aprobada o en trámite avanzado.</p>
+            <p>Decreto Ejecutivo vigente · Acuerdo Ministerial publicado con período transitorio en curso · Convenio MSP–AME en ejecución activa · Inicio del proceso en al menos 15 municipios priorizados (Meta 2026) con expansión progresiva al 55% en 2027–2028.</p>
             <div style="margin-top:14px; display:flex; justify-content:flex-end;">
               <button onclick="resetRoadmap()" style="font-size:0.75rem; color:rgba(255,255,255,0.5); background:none; border:1px solid rgba(255,255,255,0.2); padding:5px 12px; border-radius:6px; cursor:pointer; font-family:var(--font-body); transition:all 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">
                 🔄 Reiniciar progreso
@@ -410,7 +523,31 @@
         </div>
       </div>
     </div>
+  </section>
 
+  <!-- ─── EXPEDIENTE DE VALIDACIÓN (DOSSIER) ────────── -->
+  <section id="section-dossier" class="section-page">
+    <div style="background: linear-gradient(135deg, #2D3436 0%, #000000 100%); padding:48px 28px; color:white;">
+      <div style="max-width:1180px; margin:0 auto;">
+        <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.85); padding:5px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:16px;">
+          📂 Expediente de Validación
+        </div>
+        <h2 style="color:white; font-size:1.8rem; margin-bottom:10px;">Dossier de Eliminación RHTP</h2>
+        <p style="color:rgba(255,255,255,0.8); font-size:0.95rem; line-height:1.7; max-width:700px;" id="dossier-intro">
+          <!-- Renderizado por JS -->
+        </p>
+      </div>
+    </div>
+
+    <div class="section-header">
+      <div class="section-tag">📋 Evidencia Documental</div>
+      <h2>Instrumentos del Expediente</h2>
+      <p>Acceso directo a las versiones oficiales de los instrumentos que sustentan el dossier nacional ante OPS/OMS.</p>
+    </div>
+
+    <div class="instrumentos-grid container" id="dossier-grid">
+      <!-- Renderizado por JS -->
+    </div>
   </section>
 
 </main>
@@ -420,11 +557,65 @@
 ═══════════════════════════════════════════ -->
 <footer>
   <strong>Ecuador libre de rabia</strong> — Marco Normativo para la Eliminación de la RHTP<br>
-  Ministerio de Salud Pública del Ecuador · <strong>Boehringer Ingelheim</strong> · 2026<br>
+  Ministerio de Salud · 2026<br>
   Equipo consultor: Dr. Santiago Pinto Zaldumbide · Abg. Héctor Muñoz Alarcón · Abg. Alvaro Orellana · Abg. Lorena Rincón
 </footer>
 
 <!-- Scripts -->
+    <!-- Drawer para Catálogo Normativo -->
+    <div id="catalog-drawer" class="drawer">
+        <div class="drawer-overlay" onclick="RABIA_APP.toggleCatalog()"></div>
+        <div class="drawer-content glass-card">
+            <div class="drawer-header">
+                <h3 class="drawer-title text-accent">Catálogo normativo revisado</h3>
+                <button class="drawer-close" onclick="RABIA_APP.toggleCatalog()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="drawer-body">
+                <p id="catalog-intro" class="mb-4 text-muted"></p>
+                <div id="catalog-categories">
+                    <!-- Se cargarán dinámicamente -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<!-- PDF Viewer Modal -->
+<div id="pdf-modal" class="pdf-modal-overlay">
+    <div class="pdf-modal-container">
+        <div class="pdf-modal-header">
+            <div class="pdf-modal-header-left">
+                <div class="pdf-modal-icon" id="pdf-modal-icon">📄</div>
+                <div class="pdf-modal-title-wrap">
+                    <h3 id="pdf-modal-title">Documento Normativo</h3>
+                    <p id="pdf-modal-subtitle">Ecuador libre de rabia 2026</p>
+                </div>
+            </div>
+            <div class="pdf-modal-header-right">
+                <a id="pdf-external-link" href="#" target="_blank" class="inst-pdf-btn secondary" title="Abrir en pestaña nueva">
+                    <i class="fas fa-external-link-alt"></i> <span>Abrir en pestaña nueva</span>
+                </a>
+                <a id="pdf-download-link" href="#" download class="inst-pdf-btn secondary" title="Descargar">
+                    <i class="fas fa-download"></i>
+                </a>
+                <button class="inst-pdf-btn secondary" onclick="RABIA_APP.closePdfModal()" style="padding: 8px 12px; height: 36px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="pdf-modal-body" id="pdf-modal-body">
+            <iframe id="pdf-iframe" src="" allow="autoplay"></iframe>
+            <div id="pdf-loader" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:white; text-align:center; display:none;">
+                <i class="fas fa-circle-notch fa-spin fa-2x mb-2"></i>
+                <p>Cargando documento...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="assets/js/data.js"></script>
 <script src="assets/js/app.js"></script>
 
