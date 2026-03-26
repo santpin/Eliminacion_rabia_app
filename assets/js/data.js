@@ -307,7 +307,7 @@ const APP_DATA = {
         hito: "Meta: Iniciar implementación en al menos 15 municipios priorizados — Diciembre 2026",
         brecha_cierra: "Heterogeneidad subnacional sin mínimos armonizados para control animal, registro y fiscalización",
         fundamento: "Arts. 238 y 264 CRE; Arts. 7, 57, 54 lit. r, 136 y 322 COOTAD; Arts. 139 y 144 Código Orgánico del Ambiente; Art. 123 LOS.",
-        pdf_url: "",
+        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774533593/Ordenanza_Modelo_AME_V1_Rabia_pnmvjm.pdf",
         descripcion: "Instrumento estandarizado que los GAD pueden adoptar en ejercicio de su autonomía constitucional, adaptándolo a sus particularidades locales sin afectar los mínimos exigibles. Responde a la existencia de 80 ordenanzas municipales con contenidos heterogéneos que generan 'islas de riesgo'.",
         elementos: [
           "Principios rectores: enfoque Una Salud, prevención y vigilancia prioritaria, bienestar animal (Cinco Libertades) y corresponsabilidad intersectorial.",
