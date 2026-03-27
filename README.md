@@ -19,7 +19,7 @@ Esta plataforma presenta:
 - **MINEDUC**: Educación preventiva y sostenibilidad.
 - **AME / GAD**: Ejecución territorial en los 222 cantones.
 
-## 🚀 Tecnologías Utilisadas
+## 🚀 Tecnologías Utilizadas
 - **Frontend**: HTML5, Vanilla CSS, Vanilla JavaScript.
 - **Diseño**: Glassmorphism premium, fuentes Poppins e Inter (Google Fonts).
 - **Hosting**: Preparado para despliegue en Vercel / GitHub Pages.
@@ -30,4 +30,4 @@ Esta plataforma presenta:
 - **Abg. Alvaro Orellana**
 - **Abg. Lorena Rincón**
 
----
+---"

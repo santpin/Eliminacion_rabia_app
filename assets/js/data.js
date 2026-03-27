@@ -25,58 +25,58 @@ const APP_DATA = {
     ],
     fecha_corte: "Marzo 2026"
   },
-    catalogo_revisado: {
-      titulo: "Catálogo de instrumentos normativos revisados",
-      intro: "El diagnóstico normativo (Producto 1) analizó el universo de instrumentos vigentes. Este catálogo presenta una selección de los más relevantes para la estrategia de eliminación de la RHTP, organizados por jerarquía y pertinencia.",
-      instrumentos: [
-        {
-          nombre: "Constitución de la República del Ecuador",
-          tipo: "Constitución",
-          relevancia: "Marco supremo que garantiza el derecho a la salud (Art. 32) y establece competencias del Estado Central (Art. 261.6) y GAD (Art. 264) en materia de salud y ambiente."
-        },
-        {
-          nombre: "Ley Orgánica de Salud (LOS)",
-          tipo: "Ley Orgánica",
-          relevancia: "Define la rectoría del MSP (Art. 4), la obligatoriedad de inmunizaciones (Art. 6) y el régimen sancionatorio en salud pública."
-        },
-        {
-          nombre: "Código Orgánico de Organización Territorial, Autonomía y Descentralización (COOTAD)",
-          tipo: "Código Orgánico",
-          relevancia: "Establece la autonomía de los GAD municipales (Art. 5) y sus competencias en gestión ambiental y salubridad (Art. 55), incluyendo el control de fauna urbana."
-        },
-        {
-          nombre: "Ley Orgánica de Sanidad Animal (LOSA)",
-          tipo: "Ley Orgánica",
-          relevancia: "Regula la sanidad animal, incluyendo la prevención y control de enfermedades zoonóticas como la rabia, y asigna competencias a AGROCALIDAD."
-        },
-        {
-          nombre: "Reglamento a la Ley Orgánica de Salud",
-          tipo: "Reglamento",
-          relevancia: "Desarrolla disposiciones de la LOS, incluyendo aspectos de vigilancia epidemiológica y control de enfermedades transmisibles."
-        },
-        {
-          nombre: "Acuerdo Ministerial 00000001 (MSP)",
-          tipo: "Acuerdo Ministerial",
-          relevancia: "Establece el Esquema Nacional de Vacunación y las normas para su aplicación, incluyendo la vacunación antirrábica humana."
-        },
-        {
-          nombre: "Acuerdo Ministerial 00000002 (MSP)",
-          tipo: "Acuerdo Ministerial",
-          relevancia: "Normativa para la vigilancia epidemiológica de enfermedades zoonóticas, incluyendo la rabia, y los procedimientos de notificación."
-        },
-        {
-          nombre: "Reglamento de Bioseguridad para Laboratorios (INSPI)",
-          tipo: "Reglamento Técnico",
-          relevancia: "Establece los estándares de bioseguridad y procedimientos para el manejo de muestras biológicas, incluyendo las de rabia."
-        },
-        {
-          nombre: "Ordenanzas Municipales de Control de Fauna Urbana",
-          tipo: "Ordenanza Municipal",
-          relevancia: "Regulaciones locales sobre tenencia responsable de animales, registro, vacunación canina y control de poblaciones, con gran variabilidad entre GAD."
-        }
-      ]
-    },
-    fecha: "Marzo 2026",
+  catalogo_revisado: {
+    titulo: "Catálogo de instrumentos normativos revisados",
+    intro: "El diagnóstico normativo (Producto 1) analizó el universo de instrumentos vigentes. Este catálogo presenta una selección de los más relevantes para la estrategia de eliminación de la RHTP, organizados por jerarquía y pertinencia.",
+    instrumentos: [
+      {
+        nombre: "Constitución de la República del Ecuador",
+        tipo: "Constitución",
+        relevancia: "Marco supremo que garantiza el derecho a la salud (Art. 32) y establece competencias del Estado Central (Art. 261.6) y GAD (Art. 264) en materia de salud y ambiente."
+      },
+      {
+        nombre: "Ley Orgánica de Salud (LOS)",
+        tipo: "Ley Orgánica",
+        relevancia: "Define la rectoría del MSP (Art. 4), la obligatoriedad de inmunizaciones (Art. 6) y el régimen sancionatorio en salud pública."
+      },
+      {
+        nombre: "Código Orgánico de Organización Territorial, Autonomía y Descentralización (COOTAD)",
+        tipo: "Código Orgánico",
+        relevancia: "Establece la autonomía de los GAD municipales (Art. 5) y sus competencias en gestión ambiental y salubridad (Art. 55), incluyendo el control de fauna urbana."
+      },
+      {
+        nombre: "Ley Orgánica de Sanidad Animal (LOSA)",
+        tipo: "Ley Orgánica",
+        relevancia: "Regula la sanidad animal, incluyendo la prevención y control de enfermedades zoonóticas como la rabia, y asigna competencias a AGROCALIDAD."
+      },
+      {
+        nombre: "Reglamento a la Ley Orgánica de Salud",
+        tipo: "Reglamento",
+        relevancia: "Desarrolla disposiciones de la LOS, incluyendo aspectos de vigilancia epidemiológica y control de enfermedades transmisibles."
+      },
+      {
+        nombre: "Acuerdo Ministerial 00000001 (MSP)",
+        tipo: "Acuerdo Ministerial",
+        relevancia: "Establece el Esquema Nacional de Vacunación y las normas para su aplicación, incluyendo la vacunación antirrábica humana."
+      },
+      {
+        nombre: "Acuerdo Ministerial 00000002 (MSP)",
+        tipo: "Acuerdo Ministerial",
+        relevancia: "Normativa para la vigilancia epidemiológica de enfermedades zoonóticas, incluyendo la rabia, y los procedimientos de notificación."
+      },
+      {
+        nombre: "Reglamento de Bioseguridad para Laboratorios (INSPI)",
+        tipo: "Reglamento Técnico",
+        relevancia: "Establece los estándares de bioseguridad y procedimientos para el manejo de muestras biológicas, incluyendo las de rabia."
+      },
+      {
+        nombre: "Ordenanzas Municipales de Control de Fauna Urbana",
+        tipo: "Ordenanza Municipal",
+        relevancia: "Regulaciones locales sobre tenencia responsable de animales, registro, vacunación canina y control de poblaciones, con gran variabilidad entre GAD."
+      }
+    ]
+  },
+  fecha: "Marzo 2026",
   // ── SECCIÓN 1: ESTRATEGIA ────────────────────────────────
   estrategia: {
     contexto: "La rabia humana transmitida por perros (RHTP) es una enfermedad zoonótica prevenible al 100 % mediante vacunación. Ecuador mantiene ausencia de casos de rabia humana transmitida por perros desde 2006. Sin embargo, la ausencia de casos no equivale a la validación del estatus de eliminación. Para obtener la verificación ante OPS/PANAFTOSA, el país debe demostrar, mediante evidencia verificable, trazable y auditable, que las condiciones para la eliminación sostenida están institucionalizadas.",
@@ -128,7 +128,7 @@ const APP_DATA = {
         titulo: "Fragmentación normativa y débil exigibilidad programática",
         resumen: "El marco vigente presenta dispersión de competencias entre sectores, sin instrumento integrador.",
         descripcion: "El marco vigente presenta dispersión de competencias y normas entre sectores, con ausencia de un instrumento integrador que establezca roles, responsabilidades, coordinación, obligaciones verificables y rendición de cuentas. Esta fragmentación reduce la capacidad del MSP de conducir un esquema estándar de eliminación con evidencia homogénea.",
-        impacto: "Ninguna institución tiene mandato explícito and verificable para liderar la coordinación intersectorial de la hoja de ruta de adopción e implementación.",
+        impacto: "Ninguna institución tiene mandato explícito y verificable para liderar la coordinación intersectorial de la hoja de ruta de adopción e implementación.",
         componentes_afectados: ["Gobernanza", "Vigilancia", "Control de focos"],
         severidad: "critica"
       },
@@ -137,8 +137,8 @@ const APP_DATA = {
         numero: 2,
         titulo: "Gobernanza intersectorial 'Una Salud' insuficientemente institucionalizada",
         resumen: "Aunque hay experiencias de coordinación, el esquema de articulación interinstitucional no está formalizado.",
-        descripcion: "Aunque existen experiencias de coordinación, el esquema de articulación interinstitucional no se encuentra formalizado de modo consistente: faltan instancias con mandato explícito, procesos decisorios definidos and mecanismos de seguimiento. Esto debilita la sostenibilidad and la trazabilidad requeridas para auditoría and validación.",
-        impacto: "La coordinación MSP–AGROCALIDAD–INSPI depende de personas and voluntades, expuesta a discontinuidad por rotación de autoridades and cambios de prioridades.",
+        descripcion: "Aunque existen experiencias de coordinación, el esquema de articulación interinstitucional no se encuentra formalizado de modo consistente: faltan instancias con mandato explícito, procesos decisorios definidos y mecanismos de seguimiento. Esto debilita la sostenibilidad y la trazabilidad requeridas para auditoría y validación.",
+        impacto: "La coordinación MSP–AGROCALIDAD–INSPI depende de personas y voluntades, expuesta a discontinuidad por rotación de autoridades y cambios de prioridades.",
         componentes_afectados: ["Gobernanza", "Control de focos", "Vigilancia"],
         severidad: "critica"
       },
@@ -147,8 +147,8 @@ const APP_DATA = {
         numero: 3,
         titulo: "Brecha en capacidad diagnóstica confirmatorio: ausencia de mandato para tipificación genética",
         resumen: "Ecuador carece de norma jurídica que obligue al INSPI a realizar tipificación genética (nivel 2) del 100 % de muestras positivas.",
-        descripcion: "El Ecuador dispone de diagnóstico de nivel 1 mediante inmunofluorescencia directa (IFD), técnica que entrega un resultado binario positivo/negativo and es suficiente para la decisión clínica inmediata. Sin embargo, no existe norma jurídica explícita que ordene al INSPI realizar la tipificación genética (nivel 2) del 100 % de las muestras positivas. Esta es la única prueba que permite distinguir entre variante canina (V1/V2) and variante silvestre (ej. murciélago), distinción que la OPS/PANAFTOSA exige para certificar el estatus de eliminación.",
-        impacto: "Un país puede tener cero muertes humanas and aun así no obtener la certificación si no puede demostrar, con trazabilidad genética, que la ausencia de casos se debe a ausencia de circulación de variante canina and no a zonas ciegas del sistema.",
+        descripcion: "El Ecuador dispone de diagnóstico de nivel 1 mediante inmunofluorescencia directa (IFD), técnica que entrega un resultado binario positivo/negativo y es suficiente para la decisión clínica inmediata. Sin embargo, no existe norma jurídica explícita que ordene al INSPI realizar la tipificación genética (nivel 2) del 100 % de las muestras positivas. Esta es la única prueba que permite distinguir entre variante canina (V1/V2) y variante silvestre (ej. murciélago), distinción que la OPS/PANAFTOSA exige para certificar el estatus de eliminación.",
+        impacto: "Un país puede tener cero muertes humanas y aun así no obtener la certificación si no puede demostrar, con trazabilidad genética, que la ausencia de casos se debe a ausencia de circulación de variante canina y no a zonas ciegas del sistema.",
         conexion_normativa: "Acuerdo Ministerial MSP (Producto 4) — Art. 6: obliga al INSPI a realizar caracterización antigénica y/o tipificación genética del 100 % de las muestras positivas.",
         componentes_afectados: ["Laboratorio", "Vigilancia", "Trazabilidad"],
         severidad: "critica"
@@ -156,9 +156,9 @@ const APP_DATA = {
       {
         id: "h7",
         numero: 4,
-        titulo: "Gestión de datos and vigilancia: cuello de botella para la eliminación",
-        resumen: "Brechas en estandarización de registros and trazabilidad de la información.",
-        descripcion: "Persisten brechas en la estandarización de registros, trazabilidad and consolidación de información (vacunación canina, vigilancia, PEP, laboratorio). Sin un sistema de evidencias robusto con definiciones, flujos, calidad de datos e indicadores verificables, el país enfrenta dificultades para demostrar desempeño sostenido ante OPS/PANAFTOSA. Adicionalmente, la ausencia de módulos de alerta en zonas fronterizas dentro del sistema de vigilancia expone al país al riesgo de reintroducción silenciosa desde países vecinos con circulación activa.",
+        titulo: "Gestión de datos y vigilancia: cuello de botella para la eliminación",
+        resumen: "Brechas en estandarización de registros y trazabilidad de la información.",
+        descripcion: "Persisten brechas en la estandarización de registros, trazabilidad y consolidación de información (vacunación canina, vigilancia, PEP, laboratorio). Sin un sistema de evidencias robusto con definiciones, flujos, calidad de datos e indicadores verificables, el país enfrenta dificultades para demostrar desempeño sostenido ante OPS/PANAFTOSA. Adicionalmente, la ausencia de módulos de alerta en zonas fronterizas dentro del sistema de vigilancia expone al país al riesgo de reintroducción silenciosa desde países vecinos con circulación activa.",
         impacto: "La ausencia de casos puede interpretarse como subnotificación en lugar de eliminación real, invalidando la solicitud de verificación.",
         componentes_afectados: ["Vigilancia", "Laboratorio", "PEP", "Trazabilidad"],
         severidad: "critica"
@@ -168,28 +168,28 @@ const APP_DATA = {
         numero: 5,
         titulo: "Desactualización e insuficiencia del marco operativo",
         resumen: "Instrumentos vigentes que no responden al estándar regional de eliminación por antigüedad o alcance limitado.",
-        descripcion: "Existen instrumentos vigentes que no responden plenamente al estándar regional de eliminación, generando vacíos en elementos operativos críticos: vigilancia integrada, PEP, laboratorio, campañas, control de focos and gestión de la información. \n\nUn vacío de alta criticidad específica es la ausencia de norma explícita que exija el uso exclusivo de vacunas de cultivo celular en la profilaxis postexposición (PEP) humana and en la vacunación antirrábica canina. Sin ese mandato, el sistema nacional de contratación pública (SERCOP) puede adjudicar la adquisición de vacunas de tejido nervioso (tecnología obsoleta, con mayor riesgo de reacciones adversas neurológicas graves) por criterio de precio más bajo, sin que el MSP tenga base jurídica para rechazarlas. Esta vulnerabilidad, denominada en el Producto 1 como la 'trampa de contratación pública', compromete simultáneamente la seguridad del esquema de PEP humana, la eficacia de las campañas de vacunación canina and la credibilidad del dossier técnico ante OPS/PANAFTOSA, que exige vacunas precalificadas OMS en todos los componentes del programa.",
-        impacto: "Los protocolos de PEP, laboratorio and campañas no están estandarizados para producir la evidencia verificable que demanda el proceso de validación OPS/PANAFTOSA. El riesgo de adquisición de vacunas de tejido nervioso por contratación pública puede ocurrir en cualquier ciclo presupuestario sin que el MSP tenga mandato legal para impedirlo.",
+        descripcion: "Existen instrumentos vigentes que no responden plenamente al estándar regional de eliminación, generando vacíos en elementos operativos críticos: vigilancia integrada, PEP, laboratorio, campañas, control de focos y gestión de la información. \n\nUn vacío de alta criticidad específica es la ausencia de norma explícita que exija el uso exclusivo de vacunas de cultivo celular en la profilaxis postexposición (PEP) humana y en la vacunación antirrábica canina. Sin ese mandato, el sistema nacional de contratación pública (SERCOP) puede adjudicar la adquisición de vacunas de tejido nervioso (tecnología obsoleta, con mayor riesgo de reacciones adversas neurológicas graves) por criterio de precio más bajo, sin que el MSP tenga base jurídica para rechazarlas. Esta vulnerabilidad, denominada en el Producto 1 como la 'trampa de contratación pública', compromete simultáneamente la seguridad del esquema de PEP humana, la eficacia de las campañas de vacunación canina y la credibilidad del dossier técnico ante OPS/PANAFTOSA, que exige vacunas precalificadas OMS en todos los componentes del programa.",
+        impacto: "Los protocolos de PEP, laboratorio y campañas no están estandarizados para producir la evidencia verificable que demanda el proceso de validación OPS/PANAFTOSA. El riesgo de adquisición de vacunas de tejido nervioso por contratación pública puede ocurrir en cualquier ciclo presupuestario sin que el MSP tenga mandato legal para impedirlo.",
         componentes_afectados: ["PEP", "Laboratorio", "Campañas y vacunación", "Contratación pública"],
         severidad: "alta"
       },
       {
         id: "h4",
         numero: 6,
-        titulo: "Brecha estructural en educación and comunicación (MSP–MINEDUC)",
+        titulo: "Brecha estructural en educación y comunicación (MSP–MINEDUC)",
         resumen: "No existe marco normativo sostenido que institucionalice educación preventiva en el sistema escolar.",
-        descripcion: "No se evidencia un marco normativo and operativo sostenido que institucionalice: educación preventiva en el sistema escolar; comunicación de riesgo and promoción de conductas (tenencia responsable, prevención de mordeduras, consulta oportuna para PEP); and capacitación recurrent de docentes and equipos locales.",
-        impacto: "La sostenibilidad del paquete normativo depende de la conciencia social, que sin marco institucional se deteriora entre generaciones and con los cambios de autoridades ministeriales.",
+        descripcion: "No se evidencia un marco normativo y operativo sostenido que institucionalice: educación preventiva en el sistema escolar; comunicación de riesgo y promoción de conductas (tenencia responsable, prevención de mordeduras, consulta oportuna para PEP); y capacitación recurrente de docentes y equipos locales.",
+        impacto: "La sostenibilidad del paquete normativo depende de la conciencia social, que sin marco institucional se deteriora entre generaciones y con los cambios de autoridades ministeriales.",
         componentes_afectados: ["Educación y comunicación", "Sostenibilidad"],
         severidad: "alta"
       },
       {
         id: "h6",
         numero: 7,
-        titulo: "Brecha estructural en el nivel subnacional (GAD) and ordenanzas",
+        titulo: "Brecha estructural en el nivel subnacional (GAD) y ordenanzas",
         resumen: "Existen 80 ordenanzas con contenidos heterogéneos sin mínimos armonizados.",
-        descripcion: "A nivel local existen 80 ordenanzas relacionadas con fauna urbana, tenencia responsable and control animal, pero no se observa un marco mínimo armonizado que asegure ejecución homogénea de acciones, coordinación multisectorial con el MSP and capacidades mínimas para control animal and apoyo a campañas en territorio.",
-        impacto: "Se generan 'islas de riesgo': territorios con normativa insuficiente que comprometen las coberturas de vacunación and debilitan la solidez estadística del dossier nacional.",
+        descripcion: "A nivel local existen 80 ordenanzas relacionadas con fauna urbana, tenencia responsable y control animal, pero no se observa un marco mínimo armonizado que asegure ejecución homogénea de acciones, coordinación multisectorial con el MSP y capacidades mínimas para control animal y apoyo a campañas en territorio.",
+        impacto: "Se generan 'islas de riesgo': territorios con normativa insuficiente que comprometen las coberturas de vacunación y debilitan la solidez estadística del dossier nacional.",
         componentes_afectados: ["Rol territorial GAD", "Vacunación canina", "Control animal"],
         severidad: "alta"
       },
@@ -197,21 +197,21 @@ const APP_DATA = {
         id: "h8-fauna",
         numero: 8,
         titulo: "Ausencia de vigilancia sistemática en reservorios no caninos: fauna silvestre y murciélagos",
-        resumen: "Brecha de Vigilancia Ecoepidemiológica: el sistema actual se concentra en el ciclo doméstico, omitiendo el monitoreo de murciélagos and fauna silvestre.",
-        descripcion: "El actual sistema de vigilancia antirrábica en Ecuador se concentra en el ciclo doméstico perro-humano, dejando sin monitoreo sistemático la rabia en murciélagos hematófagos (Desmodus rotundus), quirópteros insectívoros and fauna silvestre. AGROCALIDAD tiene competencia legal sobre la sanidad de fauna silvestre, pero no existe un protocolo de coordinación MSP-AGROCALIDAD para la vigilancia integrada de variantes virales en reservorios no caninos, situación que introduce un riesgo de reemergencia viral no detectada. \n\n**Respuesta Normativa:** El Convenio MSP-AGROCALIDAD establece la vigilancia coordinada de fauna silvestre como competencia compartida. El Decreto Ejecutivo incorpora a AGROCALIDAD como actor del sistema de vigilancia antirrábica con mandato específico sobre reservorios no domésticos.",
-        impacto: "Presencia de sistema de vigilancia integrada de reservorios no caninos (murciélagos, fauna silvestre) con tipificación genética periódica and protocolo de coordinación intersectorial: 0% cumplimiento actual",
+        resumen: "Brecha de Vigilancia Ecoepidemiológica: el sistema actual se concentra en el ciclo doméstico, omitiendo el monitoreo de murciélagos y fauna silvestre.",
+        descripcion: "El actual sistema de vigilancia antirrábica en Ecuador se concentra en el ciclo doméstico perro-humano, dejando sin monitoreo sistemático la rabia en murciélagos hematófagos (Desmodus rotundus), quirópteros insectívoros y fauna silvestre. AGROCALIDAD tiene competencia legal sobre la sanidad de fauna silvestre, pero no existe un protocolo de coordinación MSP-AGROCALIDAD para la vigilancia integrada de variantes virales en reservorios no caninos, situación que introduce un riesgo de reemergencia viral no detectada. \n\n**Respuesta Normativa:** El Convenio MSP-AGROCALIDAD establece la vigilancia coordinada de fauna silvestre como competencia compartida. El Decreto Ejecutivo incorpora a AGROCALIDAD como actor del sistema de vigilancia antirrábica con mandato específico sobre reservorios no domésticos.",
+        impacto: "Presencia de sistema de vigilancia integrada de reservorios no caninos (murciélagos, fauna silvestre) con tipificación genética periódica y protocolo de coordinación intersectorial: 0% cumplimiento actual",
         componentes_afectados: ["Vigilancia", "Fauna silvestre", "Gobernanza"],
         severidad: "alta"
       }
     ],
     brechas: [
-      { titulo: "Ausencia de instrumento integrador", descripcion: "Falta un instrumento que consolide gobernanza, obligaciones verificables, estándares operativos and mecanismos de cumplimiento bajo enfoque Una Salud." },
-      { titulo: "Insuficiencia de estándares de vigilancia", descripcion: "Faltan estándares mínimos obligatorios para registro, trazabilidad, interoperabilidad and verificación en vigilancia, PEP, vacunación and laboratorio." },
-      { titulo: "Heterogeneidad subnacional", descripcion: "No hay mínimos armonizados para control animal, registro, tenencia responsable and fiscalización a nivel municipal, con coordinación variable MSP–GAD." },
-      { titulo: "Ausencia de marco MSP–MINEDUC", descripcion: "Falta un marco formal que institucionalice educación preventiva and comunicación de riesgo como procesos permanentes, medibles and auditables." },
+      { titulo: "Ausencia de instrumento integrador", descripcion: "Falta un instrumento que consolide gobernanza, obligaciones verificables, estándares operativos y mecanismos de cumplimiento bajo enfoque Una Salud." },
+      { titulo: "Insuficiencia de estándares de vigilancia", descripcion: "Faltan estándares mínimos obligatorios para registro, trazabilidad, interoperabilidad y verificación en vigilancia, PEP, vacunación y laboratorio." },
+      { titulo: "Heterogeneidad subnacional", descripcion: "No hay mínimos armonizados para control animal, registro, tenencia responsable y fiscalización a nivel municipal, con coordinación variable MSP–GAD." },
+      { titulo: "Ausencia de marco MSP–MINEDUC", descripcion: "Falta un marco formal que institucionalice educación preventiva y comunicación de riesgo como procesos permanentes, medibles y auditables." },
       { titulo: "Ausencia de muestreo activo de animales centinela", descripcion: "La norma SIVE no incorpora la obligación ni presupuesto para el muestreo de animales muertos o atropellados (vigilancia activa). El indicador de referencia OPS es la tasa de muestras por cada 100,000 perros." },
-      { titulo: "Brechas en capacidades críticas", descripcion: "Se requieren reglas explícitas para continuidad, aseguramiento de calidad and requisitos operativos de inmunobiológicos and red diagnóstica." },
-      { titulo: "Ausencia de mandato sobre calidad de vacunas antirrábicas: riesgo de la contratación pública", descripcion: "No existe norma que exija el uso exclusivo de vacunas de cultivo celular precalificadas OMS para la PEP humana and la vacunación canina. El vacío permite que el sistema de contratación pública (SERCOP) adjudique vacunas de tejido nervioso (tecnología obsoleta con mayor perfil de reacciones adversas) por precio más bajo, sin posibilidad legal de rechazo por parte del MSP. El Acuerdo Ministerial cierra esta brecha con prohibición explícita and el Decreto con el mandato de adquisición vía Fondo Rotatorio OPS." },
+      { titulo: "Brechas en capacidades críticas", descripcion: "Se requieren reglas explícitas para continuidad, aseguramiento de calidad y requisitos operativos de inmunobiológicos y red diagnóstica." },
+      { titulo: "Ausencia de mandato sobre calidad de vacunas antirrábicas: riesgo de la contratación pública", descripcion: "No existe norma que exija el uso exclusivo de vacunas de cultivo celular precalificadas OMS para la PEP humana y la vacunación canina. El vacío permite que el sistema de contratación pública (SERCOP) adjudique vacunas de tejido nervioso (tecnología obsoleta con mayor perfil de reacciones adversas) por precio más bajo, sin posibilidad legal de rechazo por parte del MSP. El Acuerdo Ministerial cierra esta brecha con prohibición explícita y el Decreto con el mandato de adquisición vía Fondo Rotatorio OPS." },
       { titulo: "Ausencia de protocolo de vigilancia antirrábica en murciélagos y fauna silvestre: riesgo de reemergencia por reservorios no caninos", descripcion: "La vigilancia actual omite los reservorios no caninos, lo que impide detectar la circulación de variantes silvestres y gestionar el riesgo de salto de especie." },
       { titulo: "Ausencia de mecanismos de alerta temprana ante reintroducción fronteriza", descripcion: "Ecuador comparte fronteras con Colombia y Perú, países con circulación activa o reciente de variante canina en algunas provincias. No existe un protocolo formalizado MSP-AGROCALIDAD de vigilancia coordinada en zonas de frontera, ni alertas epidemiológicas automáticas integradas al SIVE-Alerta para animales en pasos fronterizos no controlados. Esta brecha es especialmente crítica para las provincias de Carchi, Sucumbíos, El Oro y Zamora Chinchipe, donde el movimiento transfronterizo de perros sin documentación sanitaria representa un vector de reintroducción post-eliminación." }
     ],
@@ -469,10 +469,10 @@ const APP_DATA = {
       icono: "🎓",
       rol: "Soporte operativo mediante convenios de brigadas estudiantiles y capacitación técnica.",
       competencias: [
-        "Brigadas de vacunación canina con estudiantes de veterinaria and salud",
+        "Brigadas de vacunación canina con estudiantes de veterinaria y salud",
         "Investigación epidemiológica aplicada al programa",
-        "Capacitación de recursos humanos en técnicas de diagnóstico and vigilancia",
-        "Vinculación comunitaria para educación and tenencia responsable",
+        "Capacitación de recursos humanos en técnicas de diagnóstico y vigilancia",
+        "Vinculación comunitaria para educación y tenencia responsable",
         "Estándares operativos para vacunación en el sector privado"
       ],
       evidencia_critica: "Convenios activos, número de estudiantes participantes, dosis de vacunación aplicadas en brigadas, publicaciones científicas.",
@@ -488,15 +488,15 @@ const APP_DATA = {
       icono: "🩺",
       rol: "Ejecutor no regulado de una fracción significativa de la vacunación antirrábica canina en Ecuador. Su participación es determinante para la cobertura real del programa, pero la ausencia de obligación legal de reporte genera subregistro estructural que compromete la verificabilidad de las coberturas ante OPS/PANAFTOSA.",
       competencias: [
-        "Aplicación de vacunas antirrábicas caninas and felinas en consulta privada and brigadas comunitarias",
+        "Aplicación de vacunas antirrábicas caninas y felinas en consulta privada y brigadas comunitarias",
         "Potencial contribución al registro de cobertura vacunal territorial si se integra al sistema de reporte",
         "Reporte de cartera de servicios de tipificación viral al INSPI (obligación que establece el Acuerdo Ministerial, Art. 11)",
-        "Notificación de casos sospechosos de rabia animal al MSP and AGROCALIDAD",
+        "Notificación de casos sospechosos de rabia animal al MSP y AGROCALIDAD",
         "Articulación con registro municipal de mascotas para integrar datos de vacunación privada al denominador territorial"
       ],
-      brecha_operativa: "No existe obligación legal vigente de reportar las dosis de vacuna antirrábica aplicadas en el sector privado. Las coberturas reales son más altas de lo que los sistemas oficiales registran, pero sin trazabilidad verificable. Este subregistro estructural hace que los indicadores de cobertura canina subestimen el desempeño real del programa and debiliten la solidez estadística del dossier de eliminación. El Acuerdo Ministerial (Art. 11) establece por primera vez la obligación de reporte al MSP.",
+      brecha_operativa: "No existe obligación legal vigente de reportar las dosis de vacuna antirrábica aplicadas en el sector privado. Las coberturas reales son más altas de lo que los sistemas oficiales registran, pero sin trazabilidad verificable. Este subregistro estructural hace que los indicadores de cobertura canina subestimen el desempeño real del programa y debiliten la solidez estadística del dossier de eliminación. El Acuerdo Ministerial (Art. 11) establece por primera vez la obligación de reporte al MSP.",
       productos_verificables: [
-        "Reporte mensual de dosis aplicadas al MSP con identificación de especie, sexo and área geográfica",
+        "Reporte mensual de dosis aplicadas al MSP con identificación de especie, sexo y área geográfica",
         "Reportes de cartera de servicios de tipificación viral al INSPI",
         "Actas de inspección de cadena de frío verificadas por el MSP"
       ],
@@ -1021,8 +1021,8 @@ const APP_DATA = {
     intro: "El Expediente de Validación (Dossier) constituye el conjunto de evidencia documental que Ecuador presentará ante la OPS/PANAFTOSA para certificar la eliminación de la RHTP. Estos instrumentos representan la consolidación técnica y jurídica del proceso.",
     proposito_formal: "Soporte técnico para la adopción del paquete normativo RHTP. Este expediente opera como un instrumento de apoyo a instancias formales de validación ante el MSP, el CONASA, municipios y organismos de cooperación técnica, definiendo el carácter funcional y vinculante del proceso de eliminación.",
     alerta: {
-        fuentes: "Productos 1 a 4 de la consultoría legal RHTP; Estándares OPS/PANAFTOSA y OMS.",
-        fecha_corte: "Marzo 2026"
+      fuentes: "Productos 1 a 4 de la consultoría legal RHTP; Estándares OPS/PANAFTOSA y OMS.",
+      fecha_corte: "Marzo 2026"
     },
     compromisos_internacionales: [
       {
@@ -1070,10 +1070,10 @@ const APP_DATA = {
         estandar_ref: "OPS CD57/R5: Gobernanza intersectorial obligatoria.",
         norma_hab: "Constitución Art. 147.5: Facultad reglamentaria del Presidente.",
         precedente: {
-            pais: "México",
-            titulo: "Comité Técnico Interinstitucional",
-            desc: "Creación de un mando único de coordinación para la eliminación.",
-            resultado: "Eliminación certificada por OPS en 2019."
+          pais: "México",
+          titulo: "Comité Técnico Interinstitucional",
+          desc: "Creación de un mando único de coordinación para la eliminación.",
+          resultado: "Eliminación certificada por OPS en 2019."
         },
         indicador: "Decreto Ejecutivo suscrito y publicado en el Registro Oficial.",
         pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774493725/DecretoEjecutivo_V1_Rabia_kgkp2d.pdf"
@@ -1089,13 +1089,13 @@ const APP_DATA = {
         estandar_ref: "PANAFTOSA: Vigilancia sensible con tipificación genética.",
         norma_hab: "Ley Orgánica de Salud: Rectoría y obligatoriedad de vigilancia.",
         precedente: {
-            pais: "Colombia",
-            titulo: "Resolución Ministerial de Vigilancia",
-            desc: "Protocolo estricto de notificación y TAT de laboratorio.",
-            resultado: "Casos urbanos reducidos a cero entre 2018 y 2023."
+          pais: "Colombia",
+          titulo: "Resolución Ministerial de Vigilancia",
+          desc: "Protocolo estricto de notificación y TAT de laboratorio.",
+          resultado: "Casos urbanos reducidos a cero entre 2018 y 2023."
         },
         indicador: "Acuerdo Ministerial publicado y socializado en las 9 zonas de salud.",
-        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774492465/Acuerdo_Ministerial_V1_Rabia_xzoxs6.pdf"
+        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774532922/Acuerdo_Ministerial_V1_Rabia_qq54rh.pdf"
       },
       {
         id: "dos-convenio",
@@ -1108,13 +1108,13 @@ const APP_DATA = {
         estandar_ref: "Estrategia One Health: Coordinación multinivel.",
         norma_hab: "Constitución Art. 226: Cooperación interinstitucional obligatoria.",
         precedente: {
-            pais: "Brasil",
-            titulo: "Convenios de Transferencia Técnica",
-            desc: "Articulación entre niveles federal, estadual y municipal.",
-            resultado: "Eliminación en áreas urbanas sostenida desde 1990."
+          pais: "Brasil",
+          titulo: "Convenios de Transferencia Técnica",
+          desc: "Articulación entre niveles federal, estadual y municipal.",
+          resultado: "Eliminación en áreas urbanas sostenida desde 1990."
         },
         indicador: "Convenio Marco suscrito entre MSP y el Directorio Ejecutivo de AME.",
-        pdf_url: ""
+        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774533394/Convenio_AME_V1_Rabia_jmwgs1.pdf"
       },
       {
         id: "dos-ordenanza",
@@ -1127,13 +1127,13 @@ const APP_DATA = {
         estandar_ref: "OMS TRS 1012: Control de población y bienestar animal.",
         norma_hab: "COOTAD Art. 54 lit. r: Competencia en servicios de salud y fauna.",
         precedente: {
-            pais: "Argentina",
-            titulo: "Ley de Tenencia y Ordenanzas Locales",
-            desc: "Registro y vacunación obligatoria en área metropolitana.",
-            resultado: "Cobertura vacunal sostenida >85% desde 2010."
+          pais: "Argentina",
+          titulo: "Ley de Tenencia y Ordenanzas Locales",
+          desc: "Registro y vacunación obligatoria en área metropolitana.",
+          resultado: "Cobertura vacunal sostenida >85% desde 2010."
         },
         indicador: "Ordenanza Modelo aprobada por AME y validada técnicamente por el MSP.",
-        pdf_url: ""
+        pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774533593/Ordenanza_Modelo_AME_V1_Rabia_pnmvjm.pdf"
       }
     ]
   }
