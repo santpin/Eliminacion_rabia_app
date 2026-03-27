@@ -543,6 +543,24 @@ const APP_DATA = {
       ],
       evidencia_critica: "Informes de asesoría técnica, participación en mesas de trabajo, insumos para el dossier de eliminación.",
       participantes: ["Dr. Niklas Weber — Advisor One Health (niklas.weber@giz.de)"]
+    },
+    {
+      id: "boehringer",
+      nombre: "Boehringer Ingelheim",
+      sigla: "BI",
+      tipo: "promotor",
+      tipo_label: "Promotor Estratégico",
+      color: "#004a99",
+      icono: "💊",
+      rol: "Empresa promotora de la consultoría legal. Observador estratégico y articulador del proyecto.",
+      competencias: [
+        "Financiamiento y gestión de la consultoría legal",
+        "Articulación estratégica entre el equipo consultor y el MSP",
+        "Apoyo en la difusión de los productos normativos",
+        "Coordinación logística del proceso de socialización (talleres)"
+      ],
+      evidencia_critica: "Informes de consultoría financiados, productos normativos validados, actas de talleres de socialización.",
+      participantes: ["Cristina Arteta — Gerente de Asuntos Corporativos"]
     }
   ],
 
