@@ -127,7 +127,7 @@ const APP_DATA = {
         numero: 1,
         titulo: "Fragmentación normativa y débil exigibilidad programática",
         resumen: "El marco vigente presenta dispersión de competencias entre sectores, sin instrumento integrador.",
-        descripcion: "El marco vigente presenta dispersión de competencias y normas entre sectores, con ausencia de un instrumento integrador que establezca roles, responsabilidades, coordinación, obligaciones verificables y rendición de cuentas. Esta fragmentación reduce la capacidad del MSP de conducir un esquema estándar de eliminación con evidencia homogénea.",
+        descripcion: "El marco vigente presenta una dispersión de competencias y normas entre sectores, con la ausencia de un instrumento integrador que establezca roles, responsabilidades, coordinación, obligaciones verificables y rendición de cuentas. Esta fragmentación reduce la capacidad del MSP de conducir un esquema estándar de eliminación con evidencia homogénea.",
         impacto: "Ninguna institución tiene mandato explícito y verificable para liderar la coordinación intersectorial de la hoja de ruta de adopción e implementación.",
         componentes_afectados: ["Gobernanza", "Vigilancia", "Control de focos"],
         severidad: "critica"
@@ -145,7 +145,7 @@ const APP_DATA = {
       {
         id: "h5",
         numero: 3,
-        titulo: "Brecha en capacidad diagnóstica confirmatorio: ausencia de mandato para tipificación genética",
+        titulo: "Brecha en capacidad diagnóstica confirmatoria: ausencia de mandato para tipificación genética",
         resumen: "Ecuador carece de norma jurídica que obligue al INSPI a realizar tipificación genética (nivel 2) del 100 % de muestras positivas.",
         descripcion: "El Ecuador dispone de diagnóstico de nivel 1 mediante inmunofluorescencia directa (IFD), técnica que entrega un resultado binario positivo/negativo y es suficiente para la decisión clínica inmediata. Sin embargo, no existe norma jurídica explícita que ordene al INSPI realizar la tipificación genética (nivel 2) del 100 % de las muestras positivas. Esta es la única prueba que permite distinguir entre variante canina (V1/V2) y variante silvestre (ej. murciélago), distinción que la OPS/PANAFTOSA exige para certificar el estatus de eliminación.",
         impacto: "Un país puede tener cero muertes humanas y aun así no obtener la certificación si no puede demostrar, con trazabilidad genética, que la ausencia de casos se debe a ausencia de circulación de variante canina y no a zonas ciegas del sistema.",
@@ -199,7 +199,7 @@ const APP_DATA = {
         titulo: "Ausencia de vigilancia sistemática en reservorios no caninos: fauna silvestre y murciélagos",
         resumen: "Brecha de Vigilancia Ecoepidemiológica: el sistema actual se concentra en el ciclo doméstico, omitiendo el monitoreo de murciélagos y fauna silvestre.",
         descripcion: "El actual sistema de vigilancia antirrábica en Ecuador se concentra en el ciclo doméstico perro-humano, dejando sin monitoreo sistemático la rabia en murciélagos hematófagos (Desmodus rotundus), quirópteros insectívoros y fauna silvestre. AGROCALIDAD tiene competencia legal sobre la sanidad de fauna silvestre, pero no existe un protocolo de coordinación MSP-AGROCALIDAD para la vigilancia integrada de variantes virales en reservorios no caninos, situación que introduce un riesgo de reemergencia viral no detectada. \n\n**Respuesta Normativa:** El Convenio MSP-AGROCALIDAD establece la vigilancia coordinada de fauna silvestre como competencia compartida. El Decreto Ejecutivo incorpora a AGROCALIDAD como actor del sistema de vigilancia antirrábica con mandato específico sobre reservorios no domésticos.",
-        impacto: "Presencia de sistema de vigilancia integrada de reservorios no caninos (murciélagos, fauna silvestre) con tipificación genética periódica y protocolo de coordinación intersectorial: 0% cumplimiento actual",
+        impacto: "Presencia de un sistema de vigilancia integrada de reservorios no caninos (murciélagos, fauna silvestre) con tipificación genética periódica y protocolo de coordinación intersectorial: 0% cumplimiento actual",
         componentes_afectados: ["Vigilancia", "Fauna silvestre", "Gobernanza"],
         severidad: "alta"
       }
@@ -211,9 +211,9 @@ const APP_DATA = {
       { titulo: "Ausencia de marco MSP–MINEDUC", descripcion: "Falta un marco formal que institucionalice educación preventiva y comunicación de riesgo como procesos permanentes, medibles y auditables." },
       { titulo: "Ausencia de muestreo activo de animales centinela", descripcion: "La norma SIVE no incorpora la obligación ni presupuesto para el muestreo de animales muertos o atropellados (vigilancia activa). El indicador de referencia OPS es la tasa de muestras por cada 100,000 perros." },
       { titulo: "Brechas en capacidades críticas", descripcion: "Se requieren reglas explícitas para continuidad, aseguramiento de calidad y requisitos operativos de inmunobiológicos y red diagnóstica." },
-      { titulo: "Ausencia de mandato sobre calidad de vacunas antirrábicas: riesgo de la contratación pública", descripcion: "No existe norma que exija el uso exclusivo de vacunas de cultivo celular precalificadas OMS para la PEP humana y la vacunación canina. El vacío permite que el sistema de contratación pública (SERCOP) adjudique vacunas de tejido nervioso (tecnología obsoleta con mayor perfil de reacciones adversas) por precio más bajo, sin posibilidad legal de rechazo por parte del MSP. El Acuerdo Ministerial cierra esta brecha con prohibición explícita y el Decreto con el mandato de adquisición vía Fondo Rotatorio OPS." },
+      { titulo: "Ausencia de mandato sobre calidad de vacunas antirrábicas: riesgo de la contratación pública", descripcion: "No existe norma que exija el uso exclusivo de vacunas de cultivo celular precalificadas OMS para la PEP humana y la vacunación canina. El vacío permite que el sistema de contratación pública (SERCOP) adjudique vacunas de tejido nervioso (tecnología obsoleta con mayor perfil de reacciones adversas) por precio más bajo, sin posibilidad legal de rechazo por parte del MSP. El Acuerdo Ministerial cierra esta brecha con una prohibición explícita y el Decreto con el mandato de adquisición vía Fondo Rotatorio OPS." },
       { titulo: "Ausencia de protocolo de vigilancia antirrábica en murciélagos y fauna silvestre: riesgo de reemergencia por reservorios no caninos", descripcion: "La vigilancia actual omite los reservorios no caninos, lo que impide detectar la circulación de variantes silvestres y gestionar el riesgo de salto de especie." },
-      { titulo: "Ausencia de mecanismos de alerta temprana ante reintroducción fronteriza", descripcion: "Ecuador comparte fronteras con Colombia y Perú, países con circulación activa o reciente de variante canina en algunas provincias. No existe un protocolo formalizado MSP-AGROCALIDAD de vigilancia coordinada en zonas de frontera, ni alertas epidemiológicas automáticas integradas al SIVE-Alerta para animales en pasos fronterizos no controlados. Esta brecha es especialmente crítica para las provincias de Carchi, Sucumbíos, El Oro y Zamora Chinchipe, donde el movimiento transfronterizo de perros sin documentación sanitaria representa un vector de reintroducción post-eliminación." }
+      { titulo: "Ausencia de mecanismos de alerta temprana ante reintroducción fronteriza", descripcion: "Ecuador comparte fronteras con Colombia y Perú, países con circulación activa o reciente de variante canina en algunas provincias. No existe un protocolo formalizado MSP–AGROCALIDAD de vigilancia coordinada en zonas de frontera, ni alertas epidemiológicas automáticas integradas al SIVE-Alerta para animales en pasos fronterizos no controlados. Esta brecha es especialmente crítica para las provincias de Carchi, Sucumbíos, El Oro y Zamora Chinchipe, donde el movimiento transfronterizo de perros sin documentación sanitaria representa un vector de reintroducción post-eliminación." }
     ],
     recomendaciones: [
       "Adoptar un instrumento integrador intersectorial para eliminación con enfoque Una Salud (Decreto Ejecutivo).",
@@ -266,11 +266,11 @@ const APP_DATA = {
         brecha_cierra: "Gobernanza insuficiente / vacíos en estándares técnicos de biológicos, vigilancia, laboratorio y PEP",
         fundamento: "Art. 154 CRE (facultad ministerial para expedir normas); Arts. 4 y 6 LOS (rectoría sanitaria, obligatoriedad de inmunizaciones); compromisos internacionales OMS y OMSA.",
         pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774532922/Acuerdo_Ministerial_V1_Rabia_qq54rh.pdf",
-        descripcion: "Convierte el mandato presidencial en procedimientos operativos verificables dentro del MSP. Define la arquitectura de vigilancia integrada y diagnostica. Mientras el Decreto define la arquitectura institucional, el Acuerdo especifica cómo se ejecutan los procesos críticos y qué evidencia debe producirse para cada uno. La distinción conceptual central es la diferencia entre la ausencia de casos por subnotificación y la ausencia demostrada por vigilancia negativa robusta con tipificación genética (evidencia real de eliminación).",
+        descripcion: "Convierte el mandato presidencial en procedimientos operativos verificables dentro del MSP. Define la arquitectura de vigilancia integrada y diagnóstica. Mientras el Decreto define la arquitectura institucional, el Acuerdo especifica cómo se ejecutan los procesos críticos y qué evidencia debe producirse para cada uno. La distinción conceptual central es la diferencia entre la ausencia de casos por subnotificación y la ausencia demostrada por vigilancia negativa robusta con tipificación genética (evidencia real de eliminación).",
         elementos: [
           "Gobernanza vinculante: formalización del Comité Nacional de Control de Zoonosis con periodicidad trimestral y actas verificables.",
           "Vigilancia sensible: obligatoriedad del reporte de casos sospechosos incluyendo resultados negativos (evidencia de ausencia de circulación viral).",
-          "Componente diagnóstico-laboratorio (Art. 6 y 11): (1) Obligatoriedad de tipificación genética molecular del 100 % de muestras positivas; (2) Planificación presupuestaria anual de reactivos; (3) Protocolo de derivación a laboratorio supranacional OPS/OMS; (4) Tiempos de respuesta máximos (TAT) auditables.",
+          "Componente diagnóstico–laboratorio (Art. 6 y 11): (1) Obligatoriedad de tipificación genética molecular del 100 % de muestras positivas; (2) Planificación presupuestaria anual de reactivos; (3) Protocolo de derivación a laboratorio supranacional OPS/OMS; (4) Tiempos de respuesta máximos (TAT) auditables.",
           "Laboratorios privados: obligación de reportar al INSPI actividades de tipificación viral y académica.",
           "PEP: garantía de acceso universal y gratuito a vacunas de cultivo celular e inmunoglobulina (RIG), con registro nominal.",
           "Vacunación canina/felina: meta del 80 % como obligación verificable; reporte mensual obligatorio del sector veterinario privado.",
@@ -502,7 +502,7 @@ const APP_DATA = {
       ],
       evidencia_critica: "Reportes mensuales de dosis aplicadas, registros de cadena de frío, actas de inspección del MSP, datos integrados al registro municipal de mascotas.",
       participantes: [
-        "Sector veterinario privado — Sin representante formal identificado en el taller intersectorial. El Acuerdo Ministerial establece la obligación de reporte como mecanismo de integración al sistema nacional."
+        "Sector veterinario privado — Sin un representante formal identificado en el taller intersectorial. El Acuerdo Ministerial establece la obligación de reporte como mecanismo de integración al sistema nacional."
       ]
     },
     {
@@ -876,7 +876,7 @@ const APP_DATA = {
   // ── CATÁLOGO NORMATIVO REVISADO (ANEXO P1) ──────────────
   catalogo_revisado: {
     titulo: "Catálogo normativo revisado",
-    intro: "El inventario normativo consolidado revisado comprende el universo de registros normativos vigentes, identificados y organizados como base documental del diagnóstico normativo. Su consulta permite transparentar el universo de instrumentos revisados por la consultoría.",
+    intro: "El inventario normativo consolidado revisado comprende el universo de registros normativos vigentes, identificados y organizados como base documental del diagnóstico normativo. Su consulta permite transparentar el conjunto de instrumentos revisados por la consultoría.",
     categorias: [
       {
         id: "cat1",
