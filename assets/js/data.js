@@ -552,12 +552,11 @@ const APP_DATA = {
       tipo_label: "Promotor Estratégico",
       color: "#004a99",
       icono: "💊",
-      rol: "Empresa promotora de la consultoría legal. Observador estratégico y articulador del proyecto.",
+      rol: "A través de un convenio de cooperación con el MSP, Boehringer Ingelheim aporta el financiamiento y la asesoría técnica que hacen posible el desarrollo de la consultoría legal RHTP, contribuyendo de forma directa al cumplimiento de los objetivos nacionales de eliminación de la rabia humana transmitida por perros.",
       competencias: [
-        "Financiamiento y gestión de la consultoría legal",
-        "Articulación estratégica entre el equipo consultor y el MSP",
-        "Apoyo en la difusión de los productos normativos",
-        "Coordinación logística del proceso de socialización (talleres)"
+        "Financiamiento y soporte técnico",
+        "Apoyo en la difusión de productos normativos",
+        "Coordinación logística de talleres de socialización"
       ],
       evidencia_critica: "Informes de consultoría financiados, productos normativos validados, actas de talleres de socialización.",
       participantes: ["Cristina Arteta — Gerente de Asuntos Corporativos"]
