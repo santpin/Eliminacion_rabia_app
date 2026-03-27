@@ -84,6 +84,7 @@ const APP_DATA = {
     marco_ops: {
       titulo: "Plan Regional OPS/PANAFTOSA 2024–2030",
       descripcion: "El estándar de referencia regional establece las condiciones mínimas para sostener la eliminación y demostrarla mediante evidencias verificables. Ecuador se alinea a este plan con la meta de validación en el horizonte 2026–2030.",
+      pdf_url: "https://res.cloudinary.com/dsjcuepns/image/upload/v1774576582/Plan_REGIONAL_PARA_ELIMINACI%C3%93N_DE_LA_RABIA_CANINA_2024-2030_ibxrfb.pdf",
       componentes: [
         { nombre: "Componentes legales y situacionales", icono: "⚖️", descripcion: "Legislación específica que respalda las acciones de vigilancia, control y prevención, basada en directrices técnicas actualizadas y en la estructura del servicio de salud pública nacional." },
         { nombre: "Adquisición de inmunobiológicos", icono: "💊", descripcion: "Mecanismos garantizados para la provisión oportuna de vacunas y gammaglobulinas antirrábicas de alta calidad, producidas por cultivo celular, tanto para la población canina como para profilaxis humana." },
