@@ -85,14 +85,13 @@ const APP_DATA = {
       titulo: "Plan Regional OPS/PANAFTOSA 2024–2030",
       descripcion: "El estándar de referencia regional establece las condiciones mínimas para sostener la eliminación y demostrarla mediante evidencias verificables. Ecuador se alinea a este plan con la meta de validación en el horizonte 2026–2030.",
       componentes: [
-        { nombre: "Gobernanza Una Salud (One Health)", icono: "🏛️", descripcion: "Coordinación intersectorial formal entre salud humana, sanidad animal y nivel territorial." },
-        { nombre: "Vigilancia y Notificación", icono: "🔬", descripcion: "Sistemas sensibles, oportunos y trazables con definiciones operativas y flujos estandarizados." },
-        { nombre: "Profilaxis PEP", icono: "💉", descripcion: "Acceso universal y gratuito a vacunas de cultivo celular e inmunoglobulina con registro nominal." },
-        { nombre: "Red de Laboratorio", icono: "🧪", descripcion: "Red diagnóstica integrada con tipificación genética rutinaria y aseguramiento de calidad." },
-        { nombre: "Vacunación Canina", icono: "🐕", descripcion: "Meta de 80 % de cobertura verificable con vacunas de cultivo celular y registro trazable." },
-        { nombre: "Control de Focos", icono: "⚡", descripcion: "Protocolo de respuesta integrada dentro de las 24 horas ante cualquier caso sospechoso." },
-        { nombre: "Rol Territorial GAD", icono: "🏘️", descripcion: "222 GAD municipales con mínimos armonizados para control animal, registro y fiscalización." },
-        { nombre: "Educación y Comunicación", icono: "📚", descripcion: "Educación preventiva institucionalizada MSP–MINEDUC como proceso permanente y auditable." }
+        { nombre: "Componentes legales y situacionales", icono: "⚖️", descripcion: "Legislación específica que respalda las acciones de vigilancia, control y prevención, basada en directrices técnicas actualizadas y en la estructura del servicio de salud pública nacional." },
+        { nombre: "Adquisición de inmunobiológicos", icono: "💊", descripcion: "Mecanismos garantizados para la provisión oportuna de vacunas y gammaglobulinas antirrábicas de alta calidad, producidas por cultivo celular, tanto para la población canina como para profilaxis humana." },
+        { nombre: "Control en la población animal", icono: "🐕", descripcion: "Campañas de vacunación masiva canina con cobertura mínima verificable del 80 %, protocolos de respuesta ante brotes y seguimiento poblacional con participación del sector privado." },
+        { nombre: "Prevención de la rabia humana", icono: "💉", descripcion: "Protocolo nacional de profilaxis pre y postexposición conforme al estándar OMS, con disponibilidad de vacunas e inmunoglobulinas en atención primaria y cobertura específica para poblaciones vulnerables." },
+        { nombre: "Capacidad diagnóstica y laboratorios", icono: "🧪", descripcion: "Red de laboratorios acreditados con distribución estratégica territorial, capacidad de tipificación genética del virus circulante y articulación con los Centros Colaboradores de la OPS/OMS." },
+        { nombre: "Vigilancia epidemiológica", icono: "🔬", descripcion: "Sistema integrado de vigilancia activa y pasiva en humanos y animales, con reporte periódico al SIRVERA y capacidad de detección temprana de reintroducción según el escenario epidemiológico del país." },
+        { nombre: "Evaluación, comunicación y educación sanitaria", icono: "📢", descripcion: "Sistemas de información para evaluación continúa de coberturas y tendencias de incidencia, planes de comunicación adaptados al contexto sociocultural y programas de educación sanitaria bajo el enfoque Una Salud." }
       ]
     },
     por_que_normativo: [
